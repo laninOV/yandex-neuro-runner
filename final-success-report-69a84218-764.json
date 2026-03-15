@@ -1,0 +1,576 @@
+{
+  "generated_at": "2026-03-05T13:07:04.275Z",
+  "state_last_updated": "2026-03-05T13:02:26.798Z",
+  "summary": {
+    "attempts_total": 1354,
+    "successful_submits": 764,
+    "target_total": 764,
+    "remaining_total": 0,
+    "progress_percent": 100,
+    "overfill_total": 0,
+    "quota_reached": true
+  },
+  "answer_counters_all_successes": {
+    "city": {
+      "nsk": 264,
+      "ufa": 265,
+      "prm": 235
+    },
+    "trip_type": {
+      "vacation": 375,
+      "weekend": 389
+    },
+    "children_mode": {
+      "with_children": 407,
+      "without_children": 357
+    },
+    "provider_bucket": {
+      "yp": 454,
+      "other": 310
+    },
+    "organizer": {
+      "yes": 764,
+      "no": 0
+    }
+  },
+  "gender_counter_all_successes": {
+    "male": 380,
+    "female": 380
+  },
+  "attempt_status_counter": {
+    "submit_unconfirmed": 7,
+    "start_page_invalid": 349,
+    "success": 764,
+    "load_error_screen": 27,
+    "browser_closed": 4,
+    "validation_stuck": 3,
+    "attempt_error": 7,
+    "network_changed": 193
+  },
+  "quota_cells_all_successes": [
+    {
+      "cell": "nsk|vacation|with_children|other",
+      "done": 30,
+      "target": 30,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "nsk|vacation|with_children|yp",
+      "done": 39,
+      "target": 39,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "nsk|vacation|without_children|other",
+      "done": 17,
+      "target": 17,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "nsk|vacation|without_children|yp",
+      "done": 38,
+      "target": 38,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "nsk|weekend|with_children|other",
+      "done": 32,
+      "target": 32,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "nsk|weekend|with_children|yp",
+      "done": 38,
+      "target": 38,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "nsk|weekend|without_children|other",
+      "done": 32,
+      "target": 32,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "nsk|weekend|without_children|yp",
+      "done": 38,
+      "target": 38,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "prm|vacation|with_children|other",
+      "done": 27,
+      "target": 27,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "prm|vacation|with_children|yp",
+      "done": 38,
+      "target": 38,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "prm|vacation|without_children|other",
+      "done": 19,
+      "target": 19,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "prm|vacation|without_children|yp",
+      "done": 38,
+      "target": 38,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "prm|weekend|with_children|other",
+      "done": 28,
+      "target": 28,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "prm|weekend|with_children|yp",
+      "done": 37,
+      "target": 37,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "prm|weekend|without_children|other",
+      "done": 11,
+      "target": 11,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "prm|weekend|without_children|yp",
+      "done": 37,
+      "target": 37,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "ufa|vacation|with_children|other",
+      "done": 26,
+      "target": 26,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "ufa|vacation|with_children|yp",
+      "done": 36,
+      "target": 36,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "ufa|vacation|without_children|other",
+      "done": 29,
+      "target": 29,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "ufa|vacation|without_children|yp",
+      "done": 38,
+      "target": 38,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "ufa|weekend|with_children|other",
+      "done": 36,
+      "target": 36,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "ufa|weekend|with_children|yp",
+      "done": 40,
+      "target": 40,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "ufa|weekend|without_children|other",
+      "done": 23,
+      "target": 23,
+      "remaining": 0,
+      "overfill": 0
+    },
+    {
+      "cell": "ufa|weekend|without_children|yp",
+      "done": 37,
+      "target": 37,
+      "remaining": 0,
+      "overfill": 0
+    }
+  ],
+  "likert_distribution_all_successes": [
+    {
+      "rule": "11:1",
+      "count": 764,
+      "mean_current": 4.2304,
+      "value_counter": {
+        "1": 50,
+        "2": 59,
+        "3": 61,
+        "4": 89,
+        "5": 505
+      }
+    },
+    {
+      "rule": "11:2",
+      "count": 764,
+      "mean_current": 3.9974,
+      "value_counter": {
+        "1": 55,
+        "2": 90,
+        "3": 83,
+        "4": 110,
+        "5": 426
+      }
+    },
+    {
+      "rule": "11:3",
+      "count": 764,
+      "mean_current": 3.8678,
+      "value_counter": {
+        "1": 77,
+        "2": 85,
+        "3": 89,
+        "4": 124,
+        "5": 389
+      }
+    },
+    {
+      "rule": "11:4",
+      "count": 764,
+      "mean_current": 3.7801,
+      "value_counter": {
+        "1": 73,
+        "2": 88,
+        "3": 108,
+        "4": 160,
+        "5": 335
+      }
+    },
+    {
+      "rule": "11:6",
+      "count": 764,
+      "mean_current": 3.9097,
+      "value_counter": {
+        "1": 65,
+        "2": 84,
+        "3": 96,
+        "4": 129,
+        "5": 390
+      }
+    },
+    {
+      "rule": "11:7",
+      "count": 764,
+      "mean_current": 3.822,
+      "value_counter": {
+        "1": 78,
+        "2": 94,
+        "3": 91,
+        "4": 124,
+        "5": 377
+      }
+    },
+    {
+      "rule": "12:1",
+      "count": 764,
+      "mean_current": 3.6335,
+      "value_counter": {
+        "1": 86,
+        "2": 102,
+        "3": 120,
+        "4": 154,
+        "5": 302
+      }
+    },
+    {
+      "rule": "12:2",
+      "count": 764,
+      "mean_current": 3.4503,
+      "value_counter": {
+        "1": 78,
+        "2": 125,
+        "3": 156,
+        "4": 185,
+        "5": 220
+      }
+    },
+    {
+      "rule": "12:3",
+      "count": 764,
+      "mean_current": 3.3377,
+      "value_counter": {
+        "1": 106,
+        "2": 148,
+        "3": 131,
+        "4": 140,
+        "5": 239
+      }
+    },
+    {
+      "rule": "12:4",
+      "count": 764,
+      "mean_current": 3.3796,
+      "value_counter": {
+        "1": 109,
+        "2": 123,
+        "3": 141,
+        "4": 151,
+        "5": 240
+      }
+    },
+    {
+      "rule": "12:5",
+      "count": 764,
+      "mean_current": 3.7068,
+      "value_counter": {
+        "1": 85,
+        "2": 87,
+        "3": 120,
+        "4": 147,
+        "5": 325
+      }
+    },
+    {
+      "rule": "12:6",
+      "count": 764,
+      "mean_current": 3.5733,
+      "value_counter": {
+        "1": 87,
+        "2": 99,
+        "3": 139,
+        "4": 167,
+        "5": 272
+      }
+    },
+    {
+      "rule": "12:7",
+      "count": 764,
+      "mean_current": 3.8338,
+      "value_counter": {
+        "1": 63,
+        "2": 91,
+        "3": 105,
+        "4": 156,
+        "5": 349
+      }
+    },
+    {
+      "rule": "13:1",
+      "count": 764,
+      "mean_current": 3.9476,
+      "value_counter": {
+        "1": 76,
+        "2": 66,
+        "3": 89,
+        "4": 124,
+        "5": 409
+      }
+    },
+    {
+      "rule": "13:2",
+      "count": 764,
+      "mean_current": 3.144,
+      "value_counter": {
+        "1": 143,
+        "2": 123,
+        "3": 158,
+        "4": 161,
+        "5": 179
+      }
+    },
+    {
+      "rule": "13:3",
+      "count": 764,
+      "mean_current": 3.3992,
+      "value_counter": {
+        "1": 116,
+        "2": 116,
+        "3": 116,
+        "4": 179,
+        "5": 237
+      }
+    },
+    {
+      "rule": "13:4",
+      "count": 764,
+      "mean_current": 3.2683,
+      "value_counter": {
+        "1": 114,
+        "2": 131,
+        "3": 161,
+        "4": 152,
+        "5": 206
+      }
+    },
+    {
+      "rule": "13:5",
+      "count": 764,
+      "mean_current": 3.3403,
+      "value_counter": {
+        "1": 104,
+        "2": 133,
+        "3": 151,
+        "4": 151,
+        "5": 225
+      }
+    },
+    {
+      "rule": "13:6",
+      "count": 764,
+      "mean_current": 3.7605,
+      "value_counter": {
+        "1": 72,
+        "2": 95,
+        "3": 111,
+        "4": 152,
+        "5": 334
+      }
+    },
+    {
+      "rule": "13:7",
+      "count": 764,
+      "mean_current": 3.7448,
+      "value_counter": {
+        "1": 68,
+        "2": 99,
+        "3": 121,
+        "4": 148,
+        "5": 328
+      }
+    },
+    {
+      "rule": "9:1",
+      "count": 764,
+      "mean_current": 4.1963,
+      "value_counter": {
+        "1": 45,
+        "2": 55,
+        "3": 80,
+        "4": 109,
+        "5": 475
+      }
+    },
+    {
+      "rule": "9:2",
+      "count": 764,
+      "mean_current": 4.3442,
+      "value_counter": {
+        "1": 35,
+        "2": 45,
+        "3": 66,
+        "4": 94,
+        "5": 524
+      }
+    },
+    {
+      "rule": "9:3",
+      "count": 764,
+      "mean_current": 3.7134,
+      "value_counter": {
+        "1": 72,
+        "2": 108,
+        "3": 109,
+        "4": 153,
+        "5": 322
+      }
+    },
+    {
+      "rule": "9:4",
+      "count": 764,
+      "mean_current": 4.4359,
+      "value_counter": {
+        "1": 32,
+        "2": 33,
+        "3": 63,
+        "4": 78,
+        "5": 558
+      }
+    },
+    {
+      "rule": "9:5",
+      "count": 764,
+      "mean_current": 3.9162,
+      "value_counter": {
+        "1": 65,
+        "2": 76,
+        "3": 105,
+        "4": 130,
+        "5": 388
+      }
+    },
+    {
+      "rule": "9:6",
+      "count": 764,
+      "mean_current": 4.3102,
+      "value_counter": {
+        "1": 46,
+        "2": 55,
+        "3": 46,
+        "4": 86,
+        "5": 531
+      }
+    }
+  ],
+  "provider_specific_distribution_from_report_only": {
+    "successful_runs_covered": 585,
+    "note": "This block is based only on successful_runs stored in report file, not guaranteed to include all 764 successes.",
+    "distribution": [
+      {
+        "option": "Яндекс Путешествия",
+        "count": 309
+      },
+      {
+        "option": "Т-путешествия",
+        "count": 71
+      },
+      {
+        "option": "Aviasales",
+        "count": 71
+      },
+      {
+        "option": "Островок",
+        "count": 69
+      },
+      {
+        "option": "Ozon Travel",
+        "count": 65
+      },
+      {
+        "option": "Avito",
+        "count": 64
+      },
+      {
+        "option": "OneTwoTrip",
+        "count": 63
+      },
+      {
+        "option": "Суточно.ру",
+        "count": 62
+      },
+      {
+        "option": "Tutu.ru",
+        "count": 54
+      }
+    ]
+  }
+}

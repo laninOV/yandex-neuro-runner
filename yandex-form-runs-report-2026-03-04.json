@@ -1,0 +1,195 @@
+{
+  "config": {
+    "FORM_URL": "https://forms.yandex.ru/u/69a805c3902902c6015a5aac",
+    "TARGET_SUCCESSFUL_SUBMITS": 3,
+    "BRANCH_POLICY": "random_yes_no",
+    "CAPTCHA_POLICY": "restart_browser",
+    "MAX_TOTAL_ATTEMPTS": 20,
+    "HEADLESS": 1,
+    "BROWSER_MODE": "playwright-mcp-browser"
+  },
+  "summary": {
+    "successful_submits": 3,
+    "attempts_total": 5,
+    "target_reached": true,
+    "notes": [
+      "During run #3, two long automation calls timed out at the tool layer (120s limit), then completion was finished in short step actions.",
+      "No explicit captcha challenge was detected in successful runs."
+    ]
+  },
+  "attempts": [
+    {
+      "attempt_id": 1,
+      "status": "success",
+      "start_ts": "2026-03-04T13:14:35.272Z",
+      "end_ts": "2026-03-04T13:14:36.443Z",
+      "branch_choice": "Да (declared by runner)",
+      "pages_visited": [
+        "1",
+        "2"
+      ],
+      "answers_summary": [
+        {
+          "page": "1",
+          "type": "radio",
+          "value": "option_0"
+        },
+        {
+          "page": "2",
+          "type": "radio",
+          "value": "option_1"
+        }
+      ],
+      "success_marker": "Спасибо!",
+      "final_url": "https://forms.yandex.ru/u/69a805c3902902c6015a5aac/success/?reset=runcheck&page=2&akey=69cdf8abfecdff23717766ee004942794b1070e9"
+    },
+    {
+      "attempt_id": 2,
+      "status": "success",
+      "start_ts": "2026-03-04T13:15:38.846Z",
+      "end_ts": "2026-03-04T13:15:40.213Z",
+      "branch_choice": "Нет",
+      "pages_visited": [
+        "1",
+        "2"
+      ],
+      "answers_summary": [
+        {
+          "page": "1",
+          "type": "radio",
+          "value": "option_1"
+        },
+        {
+          "page": "2",
+          "type": "radio",
+          "value": "option_1"
+        }
+      ],
+      "success_marker": "Спасибо!",
+      "final_url": "https://forms.yandex.ru/u/69a805c3902902c6015a5aac/success/?reset=run2-1772630100&page=2&akey=dad4ec4f271c8eb6afdabaec3bc9385b769f20e7"
+    },
+    {
+      "attempt_id": 3,
+      "status": "timeout_tool_layer",
+      "start_ts": null,
+      "end_ts": null,
+      "branch_choice": null,
+      "pages_visited": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answers_summary": [],
+      "success_marker": null,
+      "final_url": "https://forms.yandex.ru/u/69a805c3902902c6015a5aac/?reset=run3-1772630142&page=3"
+    },
+    {
+      "attempt_id": 4,
+      "status": "timeout_tool_layer",
+      "start_ts": null,
+      "end_ts": null,
+      "branch_choice": null,
+      "pages_visited": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answers_summary": [],
+      "success_marker": null,
+      "final_url": "https://forms.yandex.ru/u/69a805c3902902c6015a5aac/?reset=run3-1772630142&page=3"
+    },
+    {
+      "attempt_id": 5,
+      "status": "success",
+      "start_ts": null,
+      "end_ts": null,
+      "branch_choice": "Да (inferred from deep branch, page=7)",
+      "pages_visited": [
+        "1",
+        "2",
+        "3",
+        "7"
+      ],
+      "answers_summary": [
+        {
+          "page": "7",
+          "type": "radio",
+          "value": "6 groups auto-selected before submit"
+        }
+      ],
+      "success_marker": "Спасибо! (detected)",
+      "final_url": "https://forms.yandex.ru/u/69a805c3902902c6015a5aac/success/?reset=run3-1772630142&page=7&akey=a8976badad4b860330ed6e9821b82ef7600a77ce"
+    }
+  ],
+  "successful_runs": [
+    {
+      "run_id": 1,
+      "timestamp_start": "2026-03-04T13:14:35.272Z",
+      "timestamp_end": "2026-03-04T13:14:36.443Z",
+      "branch_choice": "Да (declared by runner)",
+      "pages_visited": [
+        "1",
+        "2"
+      ],
+      "answers_summary": [
+        {
+          "page": "1",
+          "type": "radio",
+          "value": "option_0"
+        },
+        {
+          "page": "2",
+          "type": "radio",
+          "value": "option_1"
+        }
+      ],
+      "success_marker": "Спасибо!",
+      "final_url": "https://forms.yandex.ru/u/69a805c3902902c6015a5aac/success/?reset=runcheck&page=2&akey=69cdf8abfecdff23717766ee004942794b1070e9"
+    },
+    {
+      "run_id": 2,
+      "timestamp_start": "2026-03-04T13:15:38.846Z",
+      "timestamp_end": "2026-03-04T13:15:40.213Z",
+      "branch_choice": "Нет",
+      "pages_visited": [
+        "1",
+        "2"
+      ],
+      "answers_summary": [
+        {
+          "page": "1",
+          "type": "radio",
+          "value": "option_1"
+        },
+        {
+          "page": "2",
+          "type": "radio",
+          "value": "option_1"
+        }
+      ],
+      "success_marker": "Спасибо!",
+      "final_url": "https://forms.yandex.ru/u/69a805c3902902c6015a5aac/success/?reset=run2-1772630100&page=2&akey=dad4ec4f271c8eb6afdabaec3bc9385b769f20e7"
+    },
+    {
+      "run_id": 3,
+      "timestamp_start": null,
+      "timestamp_end": null,
+      "branch_choice": "Да (inferred from deep branch, page=7)",
+      "pages_visited": [
+        "1",
+        "2",
+        "3",
+        "7"
+      ],
+      "answers_summary": [
+        {
+          "page": "7",
+          "type": "radio",
+          "value": "6 groups auto-selected before submit"
+        }
+      ],
+      "success_marker": "Спасибо! (detected)",
+      "final_url": "https://forms.yandex.ru/u/69a805c3902902c6015a5aac/success/?reset=run3-1772630142&page=7&akey=a8976badad4b860330ed6e9821b82ef7600a77ce"
+    }
+  ]
+}

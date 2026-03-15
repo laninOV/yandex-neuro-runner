@@ -1,0 +1,30 @@
+{
+  "targets": {
+    "nsk|vacation|with_children|yp": 39,
+    "nsk|vacation|with_children|other": 30,
+    "nsk|vacation|without_children|yp": 38,
+    "nsk|vacation|without_children|other": 17,
+    "nsk|weekend|with_children|yp": 38,
+    "nsk|weekend|with_children|other": 32,
+    "nsk|weekend|without_children|yp": 38,
+    "nsk|weekend|without_children|other": 32,
+
+    "ufa|vacation|with_children|yp": 36,
+    "ufa|vacation|with_children|other": 26,
+    "ufa|vacation|without_children|yp": 38,
+    "ufa|vacation|without_children|other": 29,
+    "ufa|weekend|with_children|yp": 40,
+    "ufa|weekend|with_children|other": 36,
+    "ufa|weekend|without_children|yp": 37,
+    "ufa|weekend|without_children|other": 23,
+
+    "prm|vacation|with_children|yp": 38,
+    "prm|vacation|with_children|other": 27,
+    "prm|vacation|without_children|yp": 38,
+    "prm|vacation|without_children|other": 19,
+    "prm|weekend|with_children|yp": 37,
+    "prm|weekend|with_children|other": 28,
+    "prm|weekend|without_children|yp": 37,
+    "prm|weekend|without_children|other": 11
+  }
+}

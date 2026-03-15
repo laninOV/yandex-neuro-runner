@@ -1,0 +1,3821 @@
+{
+  "completed": {
+    "nsk|vacation|with_children|yp": 39,
+    "nsk|vacation|with_children|other": 30,
+    "nsk|vacation|without_children|yp": 38,
+    "nsk|vacation|without_children|other": 17,
+    "nsk|weekend|with_children|yp": 38,
+    "nsk|weekend|with_children|other": 32,
+    "nsk|weekend|without_children|yp": 38,
+    "nsk|weekend|without_children|other": 32,
+    "ufa|vacation|with_children|yp": 36,
+    "ufa|vacation|with_children|other": 26,
+    "ufa|vacation|without_children|yp": 38,
+    "ufa|vacation|without_children|other": 29,
+    "ufa|weekend|with_children|yp": 40,
+    "ufa|weekend|with_children|other": 36,
+    "ufa|weekend|without_children|yp": 37,
+    "ufa|weekend|without_children|other": 23,
+    "prm|vacation|with_children|yp": 38,
+    "prm|vacation|with_children|other": 27,
+    "prm|vacation|without_children|yp": 38,
+    "prm|vacation|without_children|other": 19,
+    "prm|weekend|with_children|yp": 37,
+    "prm|weekend|with_children|other": 28,
+    "prm|weekend|without_children|yp": 37,
+    "prm|weekend|without_children|other": 11
+  },
+  "attempts_total": 1354,
+  "success_total": 764,
+  "submit_click_total": 772,
+  "submit_click_unconfirmed_total": 8,
+  "attempt_status_counter": {
+    "submit_unconfirmed": 7,
+    "start_page_invalid": 349,
+    "success": 764,
+    "load_error_screen": 27,
+    "browser_closed": 4,
+    "validation_stuck": 3,
+    "attempt_error": 7,
+    "network_changed": 193
+  },
+  "last_attempt_id": 1358,
+  "form_url": "https://forms.yandex.ru/u/69a84218e010db0429fe463d",
+  "quota_targets_hash": "8a7ed22ae92d1b2d02b9a012c6a1f4faa847950d103240e9a580174cc9200ac3",
+  "success_mode": "click_and_confirm",
+  "runner_version": "2026-03-05-quota-precision-v1",
+  "answer_counters": {
+    "city": {
+      "nsk": 264,
+      "ufa": 265,
+      "prm": 235
+    },
+    "trip_type": {
+      "vacation": 375,
+      "weekend": 389
+    },
+    "children_mode": {
+      "with_children": 407,
+      "without_children": 357
+    },
+    "provider_bucket": {
+      "yp": 454,
+      "other": 310
+    },
+    "organizer": {
+      "yes": 764,
+      "no": 0
+    }
+  },
+  "gender_counter": {
+    "male": 380,
+    "female": 380
+  },
+  "likert_progress": {
+    "ufa|weekend|with_children|9:1": {
+      "count": 76,
+      "sum": 323,
+      "target_mean": 4.25,
+      "value_counter": {
+        "1": 4,
+        "2": 4,
+        "3": 9,
+        "4": 11,
+        "5": 48
+      }
+    },
+    "ufa|weekend|with_children|9:2": {
+      "count": 76,
+      "sum": 361,
+      "target_mean": 4.75,
+      "value_counter": {
+        "1": 0,
+        "2": 2,
+        "3": 3,
+        "4": 7,
+        "5": 64
+      }
+    },
+    "ufa|weekend|with_children|9:3": {
+      "count": 76,
+      "sum": 279,
+      "target_mean": 3.67,
+      "value_counter": {
+        "1": 6,
+        "2": 11,
+        "3": 13,
+        "4": 18,
+        "5": 28
+      }
+    },
+    "ufa|weekend|with_children|9:4": {
+      "count": 76,
+      "sum": 323,
+      "target_mean": 4.25,
+      "value_counter": {
+        "1": 6,
+        "2": 5,
+        "3": 6,
+        "4": 6,
+        "5": 53
+      }
+    },
+    "ufa|weekend|with_children|9:5": {
+      "count": 76,
+      "sum": 304,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 6,
+        "2": 10,
+        "3": 5,
+        "4": 12,
+        "5": 43
+      }
+    },
+    "ufa|weekend|with_children|9:6": {
+      "count": 76,
+      "sum": 285,
+      "target_mean": 3.75,
+      "value_counter": {
+        "1": 10,
+        "2": 13,
+        "3": 4,
+        "4": 8,
+        "5": 41
+      }
+    },
+    "ufa|weekend|with_children|11:1": {
+      "count": 76,
+      "sum": 380,
+      "target_mean": 5,
+      "value_counter": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 76
+      }
+    },
+    "ufa|weekend|with_children|11:2": {
+      "count": 76,
+      "sum": 329,
+      "target_mean": 4.33,
+      "value_counter": {
+        "1": 4,
+        "2": 3,
+        "3": 7,
+        "4": 12,
+        "5": 50
+      }
+    },
+    "ufa|weekend|with_children|11:3": {
+      "count": 76,
+      "sum": 329,
+      "target_mean": 4.33,
+      "value_counter": {
+        "1": 6,
+        "2": 5,
+        "3": 3,
+        "4": 6,
+        "5": 56
+      }
+    },
+    "ufa|weekend|with_children|11:4": {
+      "count": 76,
+      "sum": 342,
+      "target_mean": 4.5,
+      "value_counter": {
+        "1": 3,
+        "2": 2,
+        "3": 5,
+        "4": 10,
+        "5": 56
+      }
+    },
+    "ufa|weekend|with_children|11:6": {
+      "count": 76,
+      "sum": 329,
+      "target_mean": 4.33,
+      "value_counter": {
+        "1": 4,
+        "2": 5,
+        "3": 7,
+        "4": 6,
+        "5": 54
+      }
+    },
+    "ufa|weekend|with_children|11:7": {
+      "count": 76,
+      "sum": 317,
+      "target_mean": 4.17,
+      "value_counter": {
+        "1": 6,
+        "2": 7,
+        "3": 4,
+        "4": 10,
+        "5": 49
+      }
+    },
+    "ufa|weekend|with_children|12:1": {
+      "count": 76,
+      "sum": 279,
+      "target_mean": 3.67,
+      "value_counter": {
+        "1": 7,
+        "2": 11,
+        "3": 12,
+        "4": 16,
+        "5": 30
+      }
+    },
+    "ufa|weekend|with_children|12:2": {
+      "count": 76,
+      "sum": 291,
+      "target_mean": 3.83,
+      "value_counter": {
+        "1": 8,
+        "2": 6,
+        "3": 10,
+        "4": 19,
+        "5": 33
+      }
+    },
+    "ufa|weekend|with_children|12:3": {
+      "count": 76,
+      "sum": 291,
+      "target_mean": 3.83,
+      "value_counter": {
+        "1": 11,
+        "2": 3,
+        "3": 10,
+        "4": 16,
+        "5": 36
+      }
+    },
+    "ufa|weekend|with_children|12:4": {
+      "count": 76,
+      "sum": 304,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 3,
+        "2": 12,
+        "3": 7,
+        "4": 14,
+        "5": 40
+      }
+    },
+    "ufa|weekend|with_children|12:5": {
+      "count": 76,
+      "sum": 304,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 8,
+        "2": 8,
+        "3": 6,
+        "4": 8,
+        "5": 46
+      }
+    },
+    "ufa|weekend|with_children|12:6": {
+      "count": 76,
+      "sum": 279,
+      "target_mean": 3.67,
+      "value_counter": {
+        "1": 8,
+        "2": 8,
+        "3": 13,
+        "4": 19,
+        "5": 28
+      }
+    },
+    "ufa|weekend|with_children|12:7": {
+      "count": 76,
+      "sum": 329,
+      "target_mean": 4.33,
+      "value_counter": {
+        "1": 3,
+        "2": 6,
+        "3": 5,
+        "4": 11,
+        "5": 51
+      }
+    },
+    "ufa|weekend|with_children|13:1": {
+      "count": 76,
+      "sum": 355,
+      "target_mean": 4.67,
+      "value_counter": {
+        "1": 2,
+        "2": 3,
+        "3": 1,
+        "4": 6,
+        "5": 64
+      }
+    },
+    "ufa|weekend|with_children|13:2": {
+      "count": 76,
+      "sum": 279,
+      "target_mean": 3.67,
+      "value_counter": {
+        "1": 7,
+        "2": 7,
+        "3": 17,
+        "4": 18,
+        "5": 27
+      }
+    },
+    "ufa|weekend|with_children|13:3": {
+      "count": 76,
+      "sum": 279,
+      "target_mean": 3.67,
+      "value_counter": {
+        "1": 6,
+        "2": 17,
+        "3": 5,
+        "4": 16,
+        "5": 32
+      }
+    },
+    "ufa|weekend|with_children|13:4": {
+      "count": 76,
+      "sum": 334,
+      "target_mean": 4.4,
+      "value_counter": {
+        "1": 2,
+        "2": 4,
+        "3": 8,
+        "4": 10,
+        "5": 52
+      }
+    },
+    "ufa|weekend|with_children|13:5": {
+      "count": 76,
+      "sum": 304,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 8,
+        "2": 5,
+        "3": 9,
+        "4": 11,
+        "5": 43
+      }
+    },
+    "ufa|weekend|with_children|13:6": {
+      "count": 76,
+      "sum": 329,
+      "target_mean": 4.33,
+      "value_counter": {
+        "1": 4,
+        "2": 7,
+        "3": 4,
+        "4": 6,
+        "5": 55
+      }
+    },
+    "ufa|weekend|with_children|13:7": {
+      "count": 76,
+      "sum": 317,
+      "target_mean": 4.17,
+      "value_counter": {
+        "1": 4,
+        "2": 11,
+        "3": 3,
+        "4": 8,
+        "5": 50
+      }
+    },
+    "nsk|vacation|with_children|9:1": {
+      "count": 69,
+      "sum": 248,
+      "target_mean": 3.6,
+      "value_counter": {
+        "1": 10,
+        "2": 6,
+        "3": 7,
+        "4": 25,
+        "5": 21
+      }
+    },
+    "nsk|vacation|with_children|9:2": {
+      "count": 69,
+      "sum": 315,
+      "target_mean": 4.56,
+      "value_counter": {
+        "1": 2,
+        "2": 3,
+        "3": 3,
+        "4": 7,
+        "5": 54
+      }
+    },
+    "nsk|vacation|with_children|9:3": {
+      "count": 69,
+      "sum": 261,
+      "target_mean": 3.78,
+      "value_counter": {
+        "1": 6,
+        "2": 7,
+        "3": 12,
+        "4": 15,
+        "5": 29
+      }
+    },
+    "nsk|vacation|with_children|9:4": {
+      "count": 69,
+      "sum": 315,
+      "target_mean": 4.56,
+      "value_counter": {
+        "1": 0,
+        "2": 4,
+        "3": 7,
+        "4": 4,
+        "5": 54
+      }
+    },
+    "nsk|vacation|with_children|9:5": {
+      "count": 69,
+      "sum": 276,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 6,
+        "2": 6,
+        "3": 12,
+        "4": 3,
+        "5": 42
+      }
+    },
+    "nsk|vacation|with_children|9:6": {
+      "count": 69,
+      "sum": 306,
+      "target_mean": 4.44,
+      "value_counter": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 3,
+        "5": 54
+      }
+    },
+    "nsk|vacation|with_children|11:1": {
+      "count": 69,
+      "sum": 314,
+      "target_mean": 4.55,
+      "value_counter": {
+        "1": 1,
+        "2": 3,
+        "3": 7,
+        "4": 4,
+        "5": 54
+      }
+    },
+    "nsk|vacation|with_children|11:2": {
+      "count": 69,
+      "sum": 301,
+      "target_mean": 4.36,
+      "value_counter": {
+        "1": 1,
+        "2": 5,
+        "3": 7,
+        "4": 11,
+        "5": 45
+      }
+    },
+    "nsk|vacation|with_children|11:3": {
+      "count": 69,
+      "sum": 282,
+      "target_mean": 4.09,
+      "value_counter": {
+        "1": 5,
+        "2": 8,
+        "3": 4,
+        "4": 11,
+        "5": 41
+      }
+    },
+    "nsk|vacation|with_children|11:4": {
+      "count": 69,
+      "sum": 264,
+      "target_mean": 3.82,
+      "value_counter": {
+        "1": 7,
+        "2": 7,
+        "3": 9,
+        "4": 14,
+        "5": 32
+      }
+    },
+    "nsk|vacation|with_children|11:6": {
+      "count": 69,
+      "sum": 288,
+      "target_mean": 4.18,
+      "value_counter": {
+        "1": 5,
+        "2": 9,
+        "3": 3,
+        "4": 4,
+        "5": 48
+      }
+    },
+    "nsk|vacation|with_children|11:7": {
+      "count": 69,
+      "sum": 276,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 5,
+        "2": 9,
+        "3": 5,
+        "4": 12,
+        "5": 38
+      }
+    },
+    "nsk|vacation|with_children|12:1": {
+      "count": 69,
+      "sum": 288,
+      "target_mean": 4.18,
+      "value_counter": {
+        "1": 5,
+        "2": 5,
+        "3": 4,
+        "4": 14,
+        "5": 41
+      }
+    },
+    "nsk|vacation|with_children|12:2": {
+      "count": 69,
+      "sum": 257,
+      "target_mean": 3.73,
+      "value_counter": {
+        "1": 7,
+        "2": 9,
+        "3": 10,
+        "4": 13,
+        "5": 30
+      }
+    },
+    "nsk|vacation|with_children|12:3": {
+      "count": 69,
+      "sum": 245,
+      "target_mean": 3.55,
+      "value_counter": {
+        "1": 7,
+        "2": 12,
+        "3": 12,
+        "4": 12,
+        "5": 26
+      }
+    },
+    "nsk|vacation|with_children|12:4": {
+      "count": 69,
+      "sum": 276,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 7,
+        "2": 6,
+        "3": 6,
+        "4": 11,
+        "5": 39
+      }
+    },
+    "nsk|vacation|with_children|12:5": {
+      "count": 69,
+      "sum": 270,
+      "target_mean": 3.91,
+      "value_counter": {
+        "1": 4,
+        "2": 9,
+        "3": 11,
+        "4": 10,
+        "5": 35
+      }
+    },
+    "nsk|vacation|with_children|12:6": {
+      "count": 69,
+      "sum": 276,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 7,
+        "2": 4,
+        "3": 10,
+        "4": 9,
+        "5": 39
+      }
+    },
+    "nsk|vacation|with_children|12:7": {
+      "count": 69,
+      "sum": 270,
+      "target_mean": 3.91,
+      "value_counter": {
+        "1": 4,
+        "2": 7,
+        "3": 8,
+        "4": 22,
+        "5": 28
+      }
+    },
+    "nsk|vacation|with_children|13:1": {
+      "count": 69,
+      "sum": 295,
+      "target_mean": 4.27,
+      "value_counter": {
+        "1": 5,
+        "2": 6,
+        "3": 2,
+        "4": 8,
+        "5": 48
+      }
+    },
+    "nsk|vacation|with_children|13:2": {
+      "count": 69,
+      "sum": 257,
+      "target_mean": 3.73,
+      "value_counter": {
+        "1": 11,
+        "2": 4,
+        "3": 7,
+        "4": 18,
+        "5": 29
+      }
+    },
+    "nsk|vacation|with_children|13:3": {
+      "count": 69,
+      "sum": 270,
+      "target_mean": 3.91,
+      "value_counter": {
+        "1": 5,
+        "2": 9,
+        "3": 7,
+        "4": 14,
+        "5": 34
+      }
+    },
+    "nsk|vacation|with_children|13:4": {
+      "count": 69,
+      "sum": 295,
+      "target_mean": 4.27,
+      "value_counter": {
+        "1": 5,
+        "2": 2,
+        "3": 8,
+        "4": 8,
+        "5": 46
+      }
+    },
+    "nsk|vacation|with_children|13:5": {
+      "count": 69,
+      "sum": 264,
+      "target_mean": 3.82,
+      "value_counter": {
+        "1": 8,
+        "2": 9,
+        "3": 3,
+        "4": 16,
+        "5": 33
+      }
+    },
+    "nsk|vacation|with_children|13:6": {
+      "count": 69,
+      "sum": 276,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 7,
+        "2": 6,
+        "3": 7,
+        "4": 9,
+        "5": 40
+      }
+    },
+    "nsk|vacation|with_children|13:7": {
+      "count": 69,
+      "sum": 295,
+      "target_mean": 4.27,
+      "value_counter": {
+        "1": 2,
+        "2": 5,
+        "3": 9,
+        "4": 9,
+        "5": 44
+      }
+    },
+    "nsk|vacation|without_children|9:1": {
+      "count": 55,
+      "sum": 248,
+      "target_mean": 4.5,
+      "value_counter": {
+        "1": 3,
+        "2": 3,
+        "3": 2,
+        "4": 2,
+        "5": 45
+      }
+    },
+    "nsk|vacation|without_children|9:2": {
+      "count": 55,
+      "sum": 262,
+      "target_mean": 4.76,
+      "value_counter": {
+        "1": 0,
+        "2": 0,
+        "3": 5,
+        "4": 3,
+        "5": 47
+      }
+    },
+    "nsk|vacation|without_children|9:3": {
+      "count": 55,
+      "sum": 208,
+      "target_mean": 3.78,
+      "value_counter": {
+        "1": 5,
+        "2": 7,
+        "3": 9,
+        "4": 8,
+        "5": 26
+      }
+    },
+    "nsk|vacation|without_children|9:4": {
+      "count": 55,
+      "sum": 256,
+      "target_mean": 4.65,
+      "value_counter": {
+        "1": 1,
+        "2": 1,
+        "3": 4,
+        "4": 4,
+        "5": 45
+      }
+    },
+    "nsk|vacation|without_children|9:5": {
+      "count": 55,
+      "sum": 217,
+      "target_mean": 3.94,
+      "value_counter": {
+        "1": 5,
+        "2": 7,
+        "3": 6,
+        "4": 5,
+        "5": 32
+      }
+    },
+    "nsk|vacation|without_children|9:6": {
+      "count": 55,
+      "sum": 237,
+      "target_mean": 4.31,
+      "value_counter": {
+        "1": 3,
+        "2": 4,
+        "3": 5,
+        "4": 4,
+        "5": 39
+      }
+    },
+    "nsk|vacation|without_children|11:1": {
+      "count": 55,
+      "sum": 234,
+      "target_mean": 4.25,
+      "value_counter": {
+        "1": 4,
+        "2": 4,
+        "3": 3,
+        "4": 7,
+        "5": 37
+      }
+    },
+    "nsk|vacation|without_children|11:2": {
+      "count": 55,
+      "sum": 239,
+      "target_mean": 4.35,
+      "value_counter": {
+        "1": 0,
+        "2": 5,
+        "3": 5,
+        "4": 11,
+        "5": 34
+      }
+    },
+    "nsk|vacation|without_children|11:3": {
+      "count": 55,
+      "sum": 220,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 4,
+        "2": 7,
+        "3": 4,
+        "4": 10,
+        "5": 30
+      }
+    },
+    "nsk|vacation|without_children|11:4": {
+      "count": 55,
+      "sum": 204,
+      "target_mean": 3.71,
+      "value_counter": {
+        "1": 4,
+        "2": 11,
+        "3": 4,
+        "4": 14,
+        "5": 22
+      }
+    },
+    "nsk|vacation|without_children|11:6": {
+      "count": 55,
+      "sum": 200,
+      "target_mean": 3.63,
+      "value_counter": {
+        "1": 8,
+        "2": 7,
+        "3": 7,
+        "4": 8,
+        "5": 25
+      }
+    },
+    "nsk|vacation|without_children|11:7": {
+      "count": 55,
+      "sum": 216,
+      "target_mean": 3.92,
+      "value_counter": {
+        "1": 8,
+        "2": 4,
+        "3": 4,
+        "4": 7,
+        "5": 32
+      }
+    },
+    "nsk|vacation|without_children|12:1": {
+      "count": 55,
+      "sum": 190,
+      "target_mean": 3.46,
+      "value_counter": {
+        "1": 2,
+        "2": 11,
+        "3": 14,
+        "4": 16,
+        "5": 12
+      }
+    },
+    "nsk|vacation|without_children|12:2": {
+      "count": 55,
+      "sum": 188,
+      "target_mean": 3.42,
+      "value_counter": {
+        "1": 6,
+        "2": 7,
+        "3": 15,
+        "4": 12,
+        "5": 15
+      }
+    },
+    "nsk|vacation|without_children|12:3": {
+      "count": 55,
+      "sum": 174,
+      "target_mean": 3.17,
+      "value_counter": {
+        "1": 4,
+        "2": 18,
+        "3": 13,
+        "4": 5,
+        "5": 15
+      }
+    },
+    "nsk|vacation|without_children|12:4": {
+      "count": 55,
+      "sum": 179,
+      "target_mean": 3.26,
+      "value_counter": {
+        "1": 9,
+        "2": 10,
+        "3": 9,
+        "4": 12,
+        "5": 15
+      }
+    },
+    "nsk|vacation|without_children|12:5": {
+      "count": 55,
+      "sum": 195,
+      "target_mean": 3.54,
+      "value_counter": {
+        "1": 7,
+        "2": 3,
+        "3": 12,
+        "4": 19,
+        "5": 14
+      }
+    },
+    "nsk|vacation|without_children|12:6": {
+      "count": 55,
+      "sum": 172,
+      "target_mean": 3.13,
+      "value_counter": {
+        "1": 7,
+        "2": 13,
+        "3": 10,
+        "4": 16,
+        "5": 9
+      }
+    },
+    "nsk|vacation|without_children|12:7": {
+      "count": 55,
+      "sum": 189,
+      "target_mean": 3.43,
+      "value_counter": {
+        "1": 5,
+        "2": 10,
+        "3": 9,
+        "4": 18,
+        "5": 13
+      }
+    },
+    "nsk|vacation|without_children|13:1": {
+      "count": 55,
+      "sum": 204,
+      "target_mean": 3.7,
+      "value_counter": {
+        "1": 9,
+        "2": 3,
+        "3": 6,
+        "4": 14,
+        "5": 23
+      }
+    },
+    "nsk|vacation|without_children|13:2": {
+      "count": 55,
+      "sum": 183,
+      "target_mean": 3.33,
+      "value_counter": {
+        "1": 8,
+        "2": 9,
+        "3": 12,
+        "4": 9,
+        "5": 17
+      }
+    },
+    "nsk|vacation|without_children|13:3": {
+      "count": 55,
+      "sum": 204,
+      "target_mean": 3.7,
+      "value_counter": {
+        "1": 3,
+        "2": 9,
+        "3": 8,
+        "4": 16,
+        "5": 19
+      }
+    },
+    "nsk|vacation|without_children|13:4": {
+      "count": 55,
+      "sum": 177,
+      "target_mean": 3.21,
+      "value_counter": {
+        "1": 6,
+        "2": 11,
+        "3": 12,
+        "4": 17,
+        "5": 9
+      }
+    },
+    "nsk|vacation|without_children|13:5": {
+      "count": 55,
+      "sum": 179,
+      "target_mean": 3.25,
+      "value_counter": {
+        "1": 9,
+        "2": 9,
+        "3": 9,
+        "4": 15,
+        "5": 13
+      }
+    },
+    "nsk|vacation|without_children|13:6": {
+      "count": 55,
+      "sum": 197,
+      "target_mean": 3.58,
+      "value_counter": {
+        "1": 6,
+        "2": 7,
+        "3": 9,
+        "4": 15,
+        "5": 18
+      }
+    },
+    "nsk|vacation|without_children|13:7": {
+      "count": 55,
+      "sum": 206,
+      "target_mean": 3.75,
+      "value_counter": {
+        "1": 5,
+        "2": 6,
+        "3": 8,
+        "4": 15,
+        "5": 21
+      }
+    },
+    "nsk|weekend|with_children|9:1": {
+      "count": 70,
+      "sum": 280,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 4,
+        "2": 9,
+        "3": 8,
+        "4": 11,
+        "5": 38
+      }
+    },
+    "nsk|weekend|with_children|9:2": {
+      "count": 70,
+      "sum": 289,
+      "target_mean": 4.13,
+      "value_counter": {
+        "1": 6,
+        "2": 5,
+        "3": 8,
+        "4": 6,
+        "5": 45
+      }
+    },
+    "nsk|weekend|with_children|9:3": {
+      "count": 70,
+      "sum": 280,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 6,
+        "2": 8,
+        "3": 6,
+        "4": 10,
+        "5": 40
+      }
+    },
+    "nsk|weekend|with_children|9:4": {
+      "count": 70,
+      "sum": 307,
+      "target_mean": 4.38,
+      "value_counter": {
+        "1": 3,
+        "2": 4,
+        "3": 7,
+        "4": 5,
+        "5": 51
+      }
+    },
+    "nsk|weekend|with_children|9:5": {
+      "count": 70,
+      "sum": 272,
+      "target_mean": 3.88,
+      "value_counter": {
+        "1": 4,
+        "2": 10,
+        "3": 8,
+        "4": 16,
+        "5": 32
+      }
+    },
+    "nsk|weekend|with_children|9:6": {
+      "count": 70,
+      "sum": 280,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 5,
+        "2": 4,
+        "3": 12,
+        "4": 14,
+        "5": 35
+      }
+    },
+    "nsk|weekend|with_children|11:1": {
+      "count": 70,
+      "sum": 295,
+      "target_mean": 4.22,
+      "value_counter": {
+        "1": 4,
+        "2": 5,
+        "3": 6,
+        "4": 12,
+        "5": 43
+      }
+    },
+    "nsk|weekend|with_children|11:2": {
+      "count": 70,
+      "sum": 280,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 3,
+        "2": 10,
+        "3": 10,
+        "4": 8,
+        "5": 39
+      }
+    },
+    "nsk|weekend|with_children|11:3": {
+      "count": 70,
+      "sum": 295,
+      "target_mean": 4.22,
+      "value_counter": {
+        "1": 3,
+        "2": 3,
+        "3": 8,
+        "4": 18,
+        "5": 38
+      }
+    },
+    "nsk|weekend|with_children|11:4": {
+      "count": 70,
+      "sum": 265,
+      "target_mean": 3.78,
+      "value_counter": {
+        "1": 8,
+        "2": 5,
+        "3": 11,
+        "4": 16,
+        "5": 30
+      }
+    },
+    "nsk|weekend|with_children|11:6": {
+      "count": 70,
+      "sum": 295,
+      "target_mean": 4.22,
+      "value_counter": {
+        "1": 4,
+        "2": 6,
+        "3": 8,
+        "4": 5,
+        "5": 47
+      }
+    },
+    "nsk|weekend|with_children|11:7": {
+      "count": 70,
+      "sum": 265,
+      "target_mean": 3.78,
+      "value_counter": {
+        "1": 6,
+        "2": 10,
+        "3": 11,
+        "4": 9,
+        "5": 34
+      }
+    },
+    "nsk|weekend|with_children|12:1": {
+      "count": 70,
+      "sum": 257,
+      "target_mean": 3.67,
+      "value_counter": {
+        "1": 9,
+        "2": 7,
+        "3": 10,
+        "4": 16,
+        "5": 28
+      }
+    },
+    "nsk|weekend|with_children|12:2": {
+      "count": 70,
+      "sum": 257,
+      "target_mean": 3.67,
+      "value_counter": {
+        "1": 7,
+        "2": 5,
+        "3": 13,
+        "4": 24,
+        "5": 21
+      }
+    },
+    "nsk|weekend|with_children|12:3": {
+      "count": 70,
+      "sum": 241,
+      "target_mean": 3.44,
+      "value_counter": {
+        "1": 8,
+        "2": 10,
+        "3": 14,
+        "4": 19,
+        "5": 19
+      }
+    },
+    "nsk|weekend|with_children|12:4": {
+      "count": 70,
+      "sum": 233,
+      "target_mean": 3.33,
+      "value_counter": {
+        "1": 12,
+        "2": 5,
+        "3": 21,
+        "4": 12,
+        "5": 20
+      }
+    },
+    "nsk|weekend|with_children|12:5": {
+      "count": 70,
+      "sum": 241,
+      "target_mean": 3.44,
+      "value_counter": {
+        "1": 10,
+        "2": 11,
+        "3": 13,
+        "4": 10,
+        "5": 26
+      }
+    },
+    "nsk|weekend|with_children|12:6": {
+      "count": 70,
+      "sum": 265,
+      "target_mean": 3.78,
+      "value_counter": {
+        "1": 8,
+        "2": 5,
+        "3": 11,
+        "4": 16,
+        "5": 30
+      }
+    },
+    "nsk|weekend|with_children|12:7": {
+      "count": 70,
+      "sum": 263,
+      "target_mean": 3.75,
+      "value_counter": {
+        "1": 6,
+        "2": 7,
+        "3": 16,
+        "4": 10,
+        "5": 31
+      }
+    },
+    "nsk|weekend|with_children|13:1": {
+      "count": 70,
+      "sum": 315,
+      "target_mean": 4.5,
+      "value_counter": {
+        "1": 1,
+        "2": 4,
+        "3": 5,
+        "4": 9,
+        "5": 51
+      }
+    },
+    "nsk|weekend|with_children|13:2": {
+      "count": 70,
+      "sum": 249,
+      "target_mean": 3.56,
+      "value_counter": {
+        "1": 8,
+        "2": 9,
+        "3": 14,
+        "4": 14,
+        "5": 25
+      }
+    },
+    "nsk|weekend|with_children|13:3": {
+      "count": 70,
+      "sum": 241,
+      "target_mean": 3.44,
+      "value_counter": {
+        "1": 12,
+        "2": 8,
+        "3": 10,
+        "4": 17,
+        "5": 23
+      }
+    },
+    "nsk|weekend|with_children|13:4": {
+      "count": 70,
+      "sum": 233,
+      "target_mean": 3.33,
+      "value_counter": {
+        "1": 7,
+        "2": 10,
+        "3": 18,
+        "4": 23,
+        "5": 12
+      }
+    },
+    "nsk|weekend|with_children|13:5": {
+      "count": 70,
+      "sum": 241,
+      "target_mean": 3.44,
+      "value_counter": {
+        "1": 8,
+        "2": 11,
+        "3": 17,
+        "4": 10,
+        "5": 24
+      }
+    },
+    "nsk|weekend|with_children|13:6": {
+      "count": 70,
+      "sum": 289,
+      "target_mean": 4.13,
+      "value_counter": {
+        "1": 3,
+        "2": 7,
+        "3": 8,
+        "4": 12,
+        "5": 40
+      }
+    },
+    "nsk|weekend|with_children|13:7": {
+      "count": 70,
+      "sum": 295,
+      "target_mean": 4.22,
+      "value_counter": {
+        "1": 4,
+        "2": 4,
+        "3": 9,
+        "4": 9,
+        "5": 44
+      }
+    },
+    "nsk|weekend|without_children|9:1": {
+      "count": 70,
+      "sum": 280,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 5,
+        "2": 7,
+        "3": 11,
+        "4": 7,
+        "5": 40
+      }
+    },
+    "nsk|weekend|without_children|9:2": {
+      "count": 70,
+      "sum": 272,
+      "target_mean": 3.88,
+      "value_counter": {
+        "1": 6,
+        "2": 6,
+        "3": 13,
+        "4": 10,
+        "5": 35
+      }
+    },
+    "nsk|weekend|without_children|9:3": {
+      "count": 70,
+      "sum": 275,
+      "target_mean": 3.93,
+      "value_counter": {
+        "1": 7,
+        "2": 7,
+        "3": 6,
+        "4": 14,
+        "5": 36
+      }
+    },
+    "nsk|weekend|without_children|9:4": {
+      "count": 70,
+      "sum": 327,
+      "target_mean": 4.67,
+      "value_counter": {
+        "1": 0,
+        "2": 1,
+        "3": 6,
+        "4": 8,
+        "5": 55
+      }
+    },
+    "nsk|weekend|without_children|9:5": {
+      "count": 70,
+      "sum": 280,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 9,
+        "2": 3,
+        "3": 5,
+        "4": 15,
+        "5": 38
+      }
+    },
+    "nsk|weekend|without_children|9:6": {
+      "count": 70,
+      "sum": 320,
+      "target_mean": 4.57,
+      "value_counter": {
+        "1": 3,
+        "2": 2,
+        "3": 1,
+        "4": 10,
+        "5": 54
+      }
+    },
+    "nsk|weekend|without_children|11:1": {
+      "count": 70,
+      "sum": 284,
+      "target_mean": 4.06,
+      "value_counter": {
+        "1": 9,
+        "2": 5,
+        "3": 3,
+        "4": 9,
+        "5": 44
+      }
+    },
+    "nsk|weekend|without_children|11:2": {
+      "count": 70,
+      "sum": 272,
+      "target_mean": 3.89,
+      "value_counter": {
+        "1": 4,
+        "2": 13,
+        "3": 7,
+        "4": 9,
+        "5": 37
+      }
+    },
+    "nsk|weekend|without_children|11:3": {
+      "count": 70,
+      "sum": 273,
+      "target_mean": 3.9,
+      "value_counter": {
+        "1": 7,
+        "2": 5,
+        "3": 10,
+        "4": 14,
+        "5": 34
+      }
+    },
+    "nsk|weekend|without_children|11:4": {
+      "count": 70,
+      "sum": 247,
+      "target_mean": 3.53,
+      "value_counter": {
+        "1": 10,
+        "2": 7,
+        "3": 12,
+        "4": 18,
+        "5": 23
+      }
+    },
+    "nsk|weekend|without_children|11:6": {
+      "count": 70,
+      "sum": 265,
+      "target_mean": 3.78,
+      "value_counter": {
+        "1": 6,
+        "2": 13,
+        "3": 6,
+        "4": 10,
+        "5": 35
+      }
+    },
+    "nsk|weekend|without_children|11:7": {
+      "count": 70,
+      "sum": 265,
+      "target_mean": 3.79,
+      "value_counter": {
+        "1": 10,
+        "2": 2,
+        "3": 13,
+        "4": 13,
+        "5": 32
+      }
+    },
+    "nsk|weekend|without_children|12:1": {
+      "count": 70,
+      "sum": 253,
+      "target_mean": 3.61,
+      "value_counter": {
+        "1": 8,
+        "2": 8,
+        "3": 16,
+        "4": 9,
+        "5": 29
+      }
+    },
+    "nsk|weekend|without_children|12:2": {
+      "count": 70,
+      "sum": 235,
+      "target_mean": 3.35,
+      "value_counter": {
+        "1": 6,
+        "2": 12,
+        "3": 20,
+        "4": 15,
+        "5": 17
+      }
+    },
+    "nsk|weekend|without_children|12:3": {
+      "count": 70,
+      "sum": 195,
+      "target_mean": 2.79,
+      "value_counter": {
+        "1": 14,
+        "2": 19,
+        "3": 17,
+        "4": 8,
+        "5": 12
+      }
+    },
+    "nsk|weekend|without_children|12:4": {
+      "count": 70,
+      "sum": 238,
+      "target_mean": 3.4,
+      "value_counter": {
+        "1": 6,
+        "2": 14,
+        "3": 17,
+        "4": 12,
+        "5": 21
+      }
+    },
+    "nsk|weekend|without_children|12:5": {
+      "count": 70,
+      "sum": 251,
+      "target_mean": 3.58,
+      "value_counter": {
+        "1": 7,
+        "2": 9,
+        "3": 12,
+        "4": 20,
+        "5": 22
+      }
+    },
+    "nsk|weekend|without_children|12:6": {
+      "count": 70,
+      "sum": 235,
+      "target_mean": 3.35,
+      "value_counter": {
+        "1": 11,
+        "2": 11,
+        "3": 14,
+        "4": 10,
+        "5": 24
+      }
+    },
+    "nsk|weekend|without_children|12:7": {
+      "count": 70,
+      "sum": 253,
+      "target_mean": 3.61,
+      "value_counter": {
+        "1": 5,
+        "2": 11,
+        "3": 15,
+        "4": 14,
+        "5": 25
+      }
+    },
+    "nsk|weekend|without_children|13:1": {
+      "count": 70,
+      "sum": 256,
+      "target_mean": 3.65,
+      "value_counter": {
+        "1": 9,
+        "2": 7,
+        "3": 13,
+        "4": 11,
+        "5": 30
+      }
+    },
+    "nsk|weekend|without_children|13:2": {
+      "count": 70,
+      "sum": 214,
+      "target_mean": 3.05,
+      "value_counter": {
+        "1": 13,
+        "2": 13,
+        "3": 13,
+        "4": 19,
+        "5": 12
+      }
+    },
+    "nsk|weekend|without_children|13:3": {
+      "count": 70,
+      "sum": 225,
+      "target_mean": 3.21,
+      "value_counter": {
+        "1": 12,
+        "2": 10,
+        "3": 16,
+        "4": 15,
+        "5": 17
+      }
+    },
+    "nsk|weekend|without_children|13:4": {
+      "count": 70,
+      "sum": 202,
+      "target_mean": 2.89,
+      "value_counter": {
+        "1": 12,
+        "2": 19,
+        "3": 15,
+        "4": 13,
+        "5": 11
+      }
+    },
+    "nsk|weekend|without_children|13:5": {
+      "count": 70,
+      "sum": 217,
+      "target_mean": 3.1,
+      "value_counter": {
+        "1": 6,
+        "2": 17,
+        "3": 23,
+        "4": 12,
+        "5": 12
+      }
+    },
+    "nsk|weekend|without_children|13:6": {
+      "count": 70,
+      "sum": 263,
+      "target_mean": 3.76,
+      "value_counter": {
+        "1": 5,
+        "2": 9,
+        "3": 11,
+        "4": 18,
+        "5": 27
+      }
+    },
+    "nsk|weekend|without_children|13:7": {
+      "count": 70,
+      "sum": 258,
+      "target_mean": 3.68,
+      "value_counter": {
+        "1": 6,
+        "2": 6,
+        "3": 17,
+        "4": 16,
+        "5": 25
+      }
+    },
+    "prm|vacation|with_children|9:1": {
+      "count": 65,
+      "sum": 272,
+      "target_mean": 4.18,
+      "value_counter": {
+        "1": 6,
+        "2": 4,
+        "3": 5,
+        "4": 7,
+        "5": 43
+      }
+    },
+    "prm|vacation|with_children|9:2": {
+      "count": 65,
+      "sum": 283,
+      "target_mean": 4.36,
+      "value_counter": {
+        "1": 1,
+        "2": 7,
+        "3": 5,
+        "4": 7,
+        "5": 45
+      }
+    },
+    "prm|vacation|with_children|9:3": {
+      "count": 65,
+      "sum": 221,
+      "target_mean": 3.4,
+      "value_counter": {
+        "1": 6,
+        "2": 11,
+        "3": 13,
+        "4": 21,
+        "5": 14
+      }
+    },
+    "prm|vacation|with_children|9:4": {
+      "count": 65,
+      "sum": 273,
+      "target_mean": 4.2,
+      "value_counter": {
+        "1": 3,
+        "2": 5,
+        "3": 8,
+        "4": 9,
+        "5": 40
+      }
+    },
+    "prm|vacation|with_children|9:5": {
+      "count": 65,
+      "sum": 239,
+      "target_mean": 3.67,
+      "value_counter": {
+        "1": 9,
+        "2": 6,
+        "3": 11,
+        "4": 10,
+        "5": 29
+      }
+    },
+    "prm|vacation|with_children|9:6": {
+      "count": 65,
+      "sum": 286,
+      "target_mean": 4.4,
+      "value_counter": {
+        "1": 4,
+        "2": 4,
+        "3": 3,
+        "4": 5,
+        "5": 49
+      }
+    },
+    "prm|vacation|with_children|11:1": {
+      "count": 65,
+      "sum": 221,
+      "target_mean": 3.4,
+      "value_counter": {
+        "1": 12,
+        "2": 12,
+        "3": 4,
+        "4": 12,
+        "5": 25
+      }
+    },
+    "prm|vacation|with_children|11:2": {
+      "count": 65,
+      "sum": 208,
+      "target_mean": 3.2,
+      "value_counter": {
+        "1": 14,
+        "2": 9,
+        "3": 14,
+        "4": 6,
+        "5": 22
+      }
+    },
+    "prm|vacation|with_children|11:3": {
+      "count": 65,
+      "sum": 203,
+      "target_mean": 3.13,
+      "value_counter": {
+        "1": 9,
+        "2": 14,
+        "3": 17,
+        "4": 10,
+        "5": 15
+      }
+    },
+    "prm|vacation|with_children|11:4": {
+      "count": 65,
+      "sum": 232,
+      "target_mean": 3.57,
+      "value_counter": {
+        "1": 8,
+        "2": 10,
+        "3": 8,
+        "4": 15,
+        "5": 24
+      }
+    },
+    "prm|vacation|with_children|11:6": {
+      "count": 65,
+      "sum": 252,
+      "target_mean": 3.87,
+      "value_counter": {
+        "1": 6,
+        "2": 7,
+        "3": 4,
+        "4": 20,
+        "5": 28
+      }
+    },
+    "prm|vacation|with_children|11:7": {
+      "count": 65,
+      "sum": 255,
+      "target_mean": 3.93,
+      "value_counter": {
+        "1": 4,
+        "2": 10,
+        "3": 6,
+        "4": 12,
+        "5": 33
+      }
+    },
+    "prm|vacation|with_children|12:1": {
+      "count": 65,
+      "sum": 213,
+      "target_mean": 3.27,
+      "value_counter": {
+        "1": 10,
+        "2": 14,
+        "3": 7,
+        "4": 16,
+        "5": 18
+      }
+    },
+    "prm|vacation|with_children|12:2": {
+      "count": 65,
+      "sum": 203,
+      "target_mean": 3.13,
+      "value_counter": {
+        "1": 9,
+        "2": 17,
+        "3": 10,
+        "4": 15,
+        "5": 14
+      }
+    },
+    "prm|vacation|with_children|12:3": {
+      "count": 65,
+      "sum": 216,
+      "target_mean": 3.33,
+      "value_counter": {
+        "1": 11,
+        "2": 12,
+        "3": 8,
+        "4": 13,
+        "5": 21
+      }
+    },
+    "prm|vacation|with_children|12:4": {
+      "count": 65,
+      "sum": 203,
+      "target_mean": 3.13,
+      "value_counter": {
+        "1": 9,
+        "2": 15,
+        "3": 14,
+        "4": 13,
+        "5": 14
+      }
+    },
+    "prm|vacation|with_children|12:5": {
+      "count": 65,
+      "sum": 239,
+      "target_mean": 3.67,
+      "value_counter": {
+        "1": 6,
+        "2": 9,
+        "3": 12,
+        "4": 11,
+        "5": 27
+      }
+    },
+    "prm|vacation|with_children|12:6": {
+      "count": 65,
+      "sum": 213,
+      "target_mean": 3.27,
+      "value_counter": {
+        "1": 4,
+        "2": 17,
+        "3": 17,
+        "4": 11,
+        "5": 16
+      }
+    },
+    "prm|vacation|with_children|12:7": {
+      "count": 65,
+      "sum": 239,
+      "target_mean": 3.67,
+      "value_counter": {
+        "1": 5,
+        "2": 11,
+        "3": 8,
+        "4": 17,
+        "5": 24
+      }
+    },
+    "prm|vacation|with_children|13:1": {
+      "count": 65,
+      "sum": 225,
+      "target_mean": 3.46,
+      "value_counter": {
+        "1": 8,
+        "2": 10,
+        "3": 11,
+        "4": 16,
+        "5": 20
+      }
+    },
+    "prm|vacation|with_children|13:2": {
+      "count": 65,
+      "sum": 190,
+      "target_mean": 2.93,
+      "value_counter": {
+        "1": 15,
+        "2": 12,
+        "3": 13,
+        "4": 13,
+        "5": 12
+      }
+    },
+    "prm|vacation|with_children|13:3": {
+      "count": 65,
+      "sum": 190,
+      "target_mean": 2.93,
+      "value_counter": {
+        "1": 17,
+        "2": 12,
+        "3": 9,
+        "4": 13,
+        "5": 14
+      }
+    },
+    "prm|vacation|with_children|13:4": {
+      "count": 65,
+      "sum": 204,
+      "target_mean": 3.14,
+      "value_counter": {
+        "1": 11,
+        "2": 10,
+        "3": 16,
+        "4": 15,
+        "5": 13
+      }
+    },
+    "prm|vacation|with_children|13:5": {
+      "count": 65,
+      "sum": 214,
+      "target_mean": 3.29,
+      "value_counter": {
+        "1": 8,
+        "2": 11,
+        "3": 14,
+        "4": 18,
+        "5": 14
+      }
+    },
+    "prm|vacation|with_children|13:6": {
+      "count": 65,
+      "sum": 232,
+      "target_mean": 3.57,
+      "value_counter": {
+        "1": 7,
+        "2": 8,
+        "3": 8,
+        "4": 25,
+        "5": 17
+      }
+    },
+    "prm|vacation|with_children|13:7": {
+      "count": 65,
+      "sum": 209,
+      "target_mean": 3.21,
+      "value_counter": {
+        "1": 7,
+        "2": 15,
+        "3": 16,
+        "4": 11,
+        "5": 16
+      }
+    },
+    "prm|vacation|without_children|9:1": {
+      "count": 57,
+      "sum": 255,
+      "target_mean": 4.47,
+      "value_counter": {
+        "1": 1,
+        "2": 4,
+        "3": 3,
+        "4": 8,
+        "5": 41
+      }
+    },
+    "prm|vacation|without_children|9:2": {
+      "count": 57,
+      "sum": 237,
+      "target_mean": 4.15,
+      "value_counter": {
+        "1": 4,
+        "2": 4,
+        "3": 6,
+        "4": 8,
+        "5": 35
+      }
+    },
+    "prm|vacation|without_children|9:3": {
+      "count": 57,
+      "sum": 200,
+      "target_mean": 3.5,
+      "value_counter": {
+        "1": 7,
+        "2": 9,
+        "3": 9,
+        "4": 12,
+        "5": 20
+      }
+    },
+    "prm|vacation|without_children|9:4": {
+      "count": 57,
+      "sum": 228,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 4,
+        "2": 5,
+        "3": 9,
+        "4": 8,
+        "5": 31
+      }
+    },
+    "prm|vacation|without_children|9:5": {
+      "count": 57,
+      "sum": 225,
+      "target_mean": 3.95,
+      "value_counter": {
+        "1": 5,
+        "2": 5,
+        "3": 9,
+        "4": 7,
+        "5": 31
+      }
+    },
+    "prm|vacation|without_children|9:6": {
+      "count": 57,
+      "sum": 243,
+      "target_mean": 4.26,
+      "value_counter": {
+        "1": 3,
+        "2": 4,
+        "3": 2,
+        "4": 14,
+        "5": 34
+      }
+    },
+    "prm|vacation|without_children|11:1": {
+      "count": 57,
+      "sum": 254,
+      "target_mean": 4.45,
+      "value_counter": {
+        "1": 1,
+        "2": 4,
+        "3": 5,
+        "4": 5,
+        "5": 42
+      }
+    },
+    "prm|vacation|without_children|11:2": {
+      "count": 57,
+      "sum": 228,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 4,
+        "2": 9,
+        "3": 5,
+        "4": 4,
+        "5": 35
+      }
+    },
+    "prm|vacation|without_children|11:3": {
+      "count": 57,
+      "sum": 225,
+      "target_mean": 3.95,
+      "value_counter": {
+        "1": 6,
+        "2": 7,
+        "3": 6,
+        "4": 3,
+        "5": 35
+      }
+    },
+    "prm|vacation|without_children|11:4": {
+      "count": 57,
+      "sum": 203,
+      "target_mean": 3.57,
+      "value_counter": {
+        "1": 7,
+        "2": 11,
+        "3": 7,
+        "4": 7,
+        "5": 25
+      }
+    },
+    "prm|vacation|without_children|11:6": {
+      "count": 57,
+      "sum": 213,
+      "target_mean": 3.73,
+      "value_counter": {
+        "1": 7,
+        "2": 5,
+        "3": 8,
+        "4": 13,
+        "5": 24
+      }
+    },
+    "prm|vacation|without_children|11:7": {
+      "count": 57,
+      "sum": 211,
+      "target_mean": 3.7,
+      "value_counter": {
+        "1": 8,
+        "2": 5,
+        "3": 6,
+        "4": 15,
+        "5": 23
+      }
+    },
+    "prm|vacation|without_children|12:1": {
+      "count": 57,
+      "sum": 205,
+      "target_mean": 3.59,
+      "value_counter": {
+        "1": 8,
+        "2": 5,
+        "3": 11,
+        "4": 11,
+        "5": 22
+      }
+    },
+    "prm|vacation|without_children|12:2": {
+      "count": 57,
+      "sum": 178,
+      "target_mean": 3.13,
+      "value_counter": {
+        "1": 7,
+        "2": 14,
+        "3": 13,
+        "4": 11,
+        "5": 12
+      }
+    },
+    "prm|vacation|without_children|12:3": {
+      "count": 57,
+      "sum": 164,
+      "target_mean": 2.87,
+      "value_counter": {
+        "1": 10,
+        "2": 16,
+        "3": 10,
+        "4": 13,
+        "5": 8
+      }
+    },
+    "prm|vacation|without_children|12:4": {
+      "count": 57,
+      "sum": 171,
+      "target_mean": 3,
+      "value_counter": {
+        "1": 10,
+        "2": 13,
+        "3": 12,
+        "4": 11,
+        "5": 11
+      }
+    },
+    "prm|vacation|without_children|12:5": {
+      "count": 57,
+      "sum": 196,
+      "target_mean": 3.43,
+      "value_counter": {
+        "1": 8,
+        "2": 6,
+        "3": 12,
+        "4": 15,
+        "5": 16
+      }
+    },
+    "prm|vacation|without_children|12:6": {
+      "count": 57,
+      "sum": 186,
+      "target_mean": 3.27,
+      "value_counter": {
+        "1": 10,
+        "2": 6,
+        "3": 12,
+        "4": 17,
+        "5": 12
+      }
+    },
+    "prm|vacation|without_children|12:7": {
+      "count": 57,
+      "sum": 198,
+      "target_mean": 3.48,
+      "value_counter": {
+        "1": 7,
+        "2": 8,
+        "3": 10,
+        "4": 15,
+        "5": 17
+      }
+    },
+    "prm|vacation|without_children|13:1": {
+      "count": 57,
+      "sum": 207,
+      "target_mean": 3.64,
+      "value_counter": {
+        "1": 9,
+        "2": 4,
+        "3": 10,
+        "4": 10,
+        "5": 24
+      }
+    },
+    "prm|vacation|without_children|13:2": {
+      "count": 57,
+      "sum": 154,
+      "target_mean": 2.7,
+      "value_counter": {
+        "1": 14,
+        "2": 10,
+        "3": 19,
+        "4": 7,
+        "5": 7
+      }
+    },
+    "prm|vacation|without_children|13:3": {
+      "count": 57,
+      "sum": 191,
+      "target_mean": 3.35,
+      "value_counter": {
+        "1": 9,
+        "2": 11,
+        "3": 8,
+        "4": 9,
+        "5": 20
+      }
+    },
+    "prm|vacation|without_children|13:4": {
+      "count": 57,
+      "sum": 166,
+      "target_mean": 2.91,
+      "value_counter": {
+        "1": 14,
+        "2": 8,
+        "3": 13,
+        "4": 13,
+        "5": 9
+      }
+    },
+    "prm|vacation|without_children|13:5": {
+      "count": 57,
+      "sum": 158,
+      "target_mean": 2.77,
+      "value_counter": {
+        "1": 10,
+        "2": 17,
+        "3": 14,
+        "4": 8,
+        "5": 8
+      }
+    },
+    "prm|vacation|without_children|13:6": {
+      "count": 57,
+      "sum": 184,
+      "target_mean": 3.22,
+      "value_counter": {
+        "1": 9,
+        "2": 11,
+        "3": 10,
+        "4": 12,
+        "5": 15
+      }
+    },
+    "prm|vacation|without_children|13:7": {
+      "count": 57,
+      "sum": 198,
+      "target_mean": 3.48,
+      "value_counter": {
+        "1": 5,
+        "2": 10,
+        "3": 9,
+        "4": 19,
+        "5": 14
+      }
+    },
+    "ufa|vacation|without_children|9:1": {
+      "count": 67,
+      "sum": 302,
+      "target_mean": 4.5,
+      "value_counter": {
+        "1": 1,
+        "2": 3,
+        "3": 7,
+        "4": 6,
+        "5": 50
+      }
+    },
+    "ufa|vacation|without_children|9:2": {
+      "count": 67,
+      "sum": 288,
+      "target_mean": 4.3,
+      "value_counter": {
+        "1": 4,
+        "2": 3,
+        "3": 5,
+        "4": 12,
+        "5": 43
+      }
+    },
+    "ufa|vacation|without_children|9:3": {
+      "count": 67,
+      "sum": 244,
+      "target_mean": 3.64,
+      "value_counter": {
+        "1": 7,
+        "2": 13,
+        "3": 5,
+        "4": 14,
+        "5": 28
+      }
+    },
+    "ufa|vacation|without_children|9:4": {
+      "count": 67,
+      "sum": 302,
+      "target_mean": 4.5,
+      "value_counter": {
+        "1": 5,
+        "2": 0,
+        "3": 3,
+        "4": 7,
+        "5": 52
+      }
+    },
+    "ufa|vacation|without_children|9:5": {
+      "count": 67,
+      "sum": 261,
+      "target_mean": 3.9,
+      "value_counter": {
+        "1": 4,
+        "2": 7,
+        "3": 11,
+        "4": 15,
+        "5": 30
+      }
+    },
+    "ufa|vacation|without_children|9:6": {
+      "count": 67,
+      "sum": 286,
+      "target_mean": 4.27,
+      "value_counter": {
+        "1": 3,
+        "2": 6,
+        "3": 5,
+        "4": 9,
+        "5": 44
+      }
+    },
+    "ufa|vacation|without_children|11:1": {
+      "count": 67,
+      "sum": 307,
+      "target_mean": 4.58,
+      "value_counter": {
+        "1": 3,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 55
+      }
+    },
+    "ufa|vacation|without_children|11:2": {
+      "count": 67,
+      "sum": 279,
+      "target_mean": 4.17,
+      "value_counter": {
+        "1": 3,
+        "2": 6,
+        "3": 7,
+        "4": 12,
+        "5": 39
+      }
+    },
+    "ufa|vacation|without_children|11:3": {
+      "count": 67,
+      "sum": 268,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 6,
+        "2": 8,
+        "3": 6,
+        "4": 7,
+        "5": 40
+      }
+    },
+    "ufa|vacation|without_children|11:4": {
+      "count": 67,
+      "sum": 263,
+      "target_mean": 3.92,
+      "value_counter": {
+        "1": 3,
+        "2": 8,
+        "3": 10,
+        "4": 16,
+        "5": 30
+      }
+    },
+    "ufa|vacation|without_children|11:6": {
+      "count": 67,
+      "sum": 263,
+      "target_mean": 3.92,
+      "value_counter": {
+        "1": 0,
+        "2": 9,
+        "3": 16,
+        "4": 13,
+        "5": 29
+      }
+    },
+    "ufa|vacation|without_children|11:7": {
+      "count": 67,
+      "sum": 268,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 4,
+        "2": 10,
+        "3": 7,
+        "4": 7,
+        "5": 39
+      }
+    },
+    "ufa|vacation|without_children|12:1": {
+      "count": 67,
+      "sum": 232,
+      "target_mean": 3.46,
+      "value_counter": {
+        "1": 8,
+        "2": 11,
+        "3": 13,
+        "4": 12,
+        "5": 23
+      }
+    },
+    "ufa|vacation|without_children|12:2": {
+      "count": 67,
+      "sum": 216,
+      "target_mean": 3.23,
+      "value_counter": {
+        "1": 8,
+        "2": 16,
+        "3": 13,
+        "4": 13,
+        "5": 17
+      }
+    },
+    "ufa|vacation|without_children|12:3": {
+      "count": 67,
+      "sum": 201,
+      "target_mean": 3,
+      "value_counter": {
+        "1": 12,
+        "2": 16,
+        "3": 13,
+        "4": 12,
+        "5": 14
+      }
+    },
+    "ufa|vacation|without_children|12:4": {
+      "count": 67,
+      "sum": 211,
+      "target_mean": 3.15,
+      "value_counter": {
+        "1": 12,
+        "2": 12,
+        "3": 12,
+        "4": 16,
+        "5": 15
+      }
+    },
+    "ufa|vacation|without_children|12:5": {
+      "count": 67,
+      "sum": 278,
+      "target_mean": 4.15,
+      "value_counter": {
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 12,
+        "5": 40
+      }
+    },
+    "ufa|vacation|without_children|12:6": {
+      "count": 67,
+      "sum": 253,
+      "target_mean": 3.77,
+      "value_counter": {
+        "1": 7,
+        "2": 6,
+        "3": 12,
+        "4": 12,
+        "5": 30
+      }
+    },
+    "ufa|vacation|without_children|12:7": {
+      "count": 67,
+      "sum": 253,
+      "target_mean": 3.77,
+      "value_counter": {
+        "1": 8,
+        "2": 8,
+        "3": 7,
+        "4": 12,
+        "5": 32
+      }
+    },
+    "ufa|vacation|without_children|13:1": {
+      "count": 67,
+      "sum": 243,
+      "target_mean": 3.62,
+      "value_counter": {
+        "1": 10,
+        "2": 7,
+        "3": 12,
+        "4": 7,
+        "5": 31
+      }
+    },
+    "ufa|vacation|without_children|13:2": {
+      "count": 67,
+      "sum": 165,
+      "target_mean": 2.46,
+      "value_counter": {
+        "1": 20,
+        "2": 18,
+        "3": 15,
+        "4": 6,
+        "5": 8
+      }
+    },
+    "ufa|vacation|without_children|13:3": {
+      "count": 67,
+      "sum": 237,
+      "target_mean": 3.54,
+      "value_counter": {
+        "1": 7,
+        "2": 7,
+        "3": 12,
+        "4": 25,
+        "5": 16
+      }
+    },
+    "ufa|vacation|without_children|13:4": {
+      "count": 67,
+      "sum": 176,
+      "target_mean": 2.62,
+      "value_counter": {
+        "1": 20,
+        "2": 15,
+        "3": 12,
+        "4": 10,
+        "5": 10
+      }
+    },
+    "ufa|vacation|without_children|13:5": {
+      "count": 67,
+      "sum": 196,
+      "target_mean": 2.92,
+      "value_counter": {
+        "1": 14,
+        "2": 14,
+        "3": 14,
+        "4": 13,
+        "5": 12
+      }
+    },
+    "ufa|vacation|without_children|13:6": {
+      "count": 67,
+      "sum": 229,
+      "target_mean": 3.42,
+      "value_counter": {
+        "1": 6,
+        "2": 10,
+        "3": 18,
+        "4": 16,
+        "5": 17
+      }
+    },
+    "ufa|vacation|without_children|13:7": {
+      "count": 67,
+      "sum": 201,
+      "target_mean": 3,
+      "value_counter": {
+        "1": 13,
+        "2": 18,
+        "3": 9,
+        "4": 10,
+        "5": 17
+      }
+    },
+    "prm|weekend|with_children|9:1": {
+      "count": 65,
+      "sum": 260,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 5,
+        "2": 2,
+        "3": 12,
+        "4": 15,
+        "5": 31
+      }
+    },
+    "prm|weekend|with_children|9:2": {
+      "count": 65,
+      "sum": 274,
+      "target_mean": 4.22,
+      "value_counter": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 15,
+        "5": 38
+      }
+    },
+    "prm|weekend|with_children|9:3": {
+      "count": 65,
+      "sum": 239,
+      "target_mean": 3.67,
+      "value_counter": {
+        "1": 4,
+        "2": 12,
+        "3": 10,
+        "4": 14,
+        "5": 25
+      }
+    },
+    "prm|weekend|with_children|9:4": {
+      "count": 65,
+      "sum": 301,
+      "target_mean": 4.63,
+      "value_counter": {
+        "1": 2,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 54
+      }
+    },
+    "prm|weekend|with_children|9:5": {
+      "count": 65,
+      "sum": 239,
+      "target_mean": 3.67,
+      "value_counter": {
+        "1": 8,
+        "2": 6,
+        "3": 11,
+        "4": 14,
+        "5": 26
+      }
+    },
+    "prm|weekend|with_children|9:6": {
+      "count": 65,
+      "sum": 296,
+      "target_mean": 4.56,
+      "value_counter": {
+        "1": 1,
+        "2": 6,
+        "3": 2,
+        "4": 3,
+        "5": 53
+      }
+    },
+    "prm|weekend|with_children|11:1": {
+      "count": 65,
+      "sum": 274,
+      "target_mean": 4.21,
+      "value_counter": {
+        "1": 1,
+        "2": 7,
+        "3": 6,
+        "4": 14,
+        "5": 37
+      }
+    },
+    "prm|weekend|with_children|11:2": {
+      "count": 65,
+      "sum": 242,
+      "target_mean": 3.73,
+      "value_counter": {
+        "1": 9,
+        "2": 8,
+        "3": 6,
+        "4": 11,
+        "5": 31
+      }
+    },
+    "prm|weekend|with_children|11:3": {
+      "count": 65,
+      "sum": 226,
+      "target_mean": 3.47,
+      "value_counter": {
+        "1": 11,
+        "2": 8,
+        "3": 8,
+        "4": 15,
+        "5": 23
+      }
+    },
+    "prm|weekend|with_children|11:4": {
+      "count": 65,
+      "sum": 239,
+      "target_mean": 3.67,
+      "value_counter": {
+        "1": 5,
+        "2": 9,
+        "3": 13,
+        "4": 13,
+        "5": 25
+      }
+    },
+    "prm|weekend|with_children|11:6": {
+      "count": 65,
+      "sum": 255,
+      "target_mean": 3.93,
+      "value_counter": {
+        "1": 6,
+        "2": 6,
+        "3": 9,
+        "4": 10,
+        "5": 34
+      }
+    },
+    "prm|weekend|with_children|11:7": {
+      "count": 65,
+      "sum": 209,
+      "target_mean": 3.21,
+      "value_counter": {
+        "1": 10,
+        "2": 13,
+        "3": 13,
+        "4": 11,
+        "5": 18
+      }
+    },
+    "prm|weekend|with_children|12:1": {
+      "count": 65,
+      "sum": 229,
+      "target_mean": 3.53,
+      "value_counter": {
+        "1": 8,
+        "2": 10,
+        "3": 10,
+        "4": 14,
+        "5": 23
+      }
+    },
+    "prm|weekend|with_children|12:2": {
+      "count": 65,
+      "sum": 234,
+      "target_mean": 3.6,
+      "value_counter": {
+        "1": 2,
+        "2": 8,
+        "3": 20,
+        "4": 19,
+        "5": 16
+      }
+    },
+    "prm|weekend|with_children|12:3": {
+      "count": 65,
+      "sum": 246,
+      "target_mean": 3.79,
+      "value_counter": {
+        "1": 3,
+        "2": 11,
+        "3": 11,
+        "4": 12,
+        "5": 28
+      }
+    },
+    "prm|weekend|with_children|12:4": {
+      "count": 65,
+      "sum": 208,
+      "target_mean": 3.2,
+      "value_counter": {
+        "1": 10,
+        "2": 13,
+        "3": 13,
+        "4": 12,
+        "5": 17
+      }
+    },
+    "prm|weekend|with_children|12:5": {
+      "count": 65,
+      "sum": 242,
+      "target_mean": 3.73,
+      "value_counter": {
+        "1": 9,
+        "2": 7,
+        "3": 10,
+        "4": 6,
+        "5": 33
+      }
+    },
+    "prm|weekend|with_children|12:6": {
+      "count": 65,
+      "sum": 234,
+      "target_mean": 3.6,
+      "value_counter": {
+        "1": 9,
+        "2": 8,
+        "3": 7,
+        "4": 17,
+        "5": 24
+      }
+    },
+    "prm|weekend|with_children|12:7": {
+      "count": 65,
+      "sum": 265,
+      "target_mean": 4.07,
+      "value_counter": {
+        "1": 4,
+        "2": 6,
+        "3": 7,
+        "4": 12,
+        "5": 36
+      }
+    },
+    "prm|weekend|with_children|13:1": {
+      "count": 65,
+      "sum": 273,
+      "target_mean": 4.2,
+      "value_counter": {
+        "1": 5,
+        "2": 2,
+        "3": 9,
+        "4": 8,
+        "5": 41
+      }
+    },
+    "prm|weekend|with_children|13:2": {
+      "count": 65,
+      "sum": 190,
+      "target_mean": 2.93,
+      "value_counter": {
+        "1": 14,
+        "2": 13,
+        "3": 11,
+        "4": 18,
+        "5": 9
+      }
+    },
+    "prm|weekend|with_children|13:3": {
+      "count": 65,
+      "sum": 200,
+      "target_mean": 3.07,
+      "value_counter": {
+        "1": 16,
+        "2": 6,
+        "3": 12,
+        "4": 19,
+        "5": 12
+      }
+    },
+    "prm|weekend|with_children|13:4": {
+      "count": 65,
+      "sum": 195,
+      "target_mean": 3,
+      "value_counter": {
+        "1": 10,
+        "2": 14,
+        "3": 18,
+        "4": 12,
+        "5": 11
+      }
+    },
+    "prm|weekend|with_children|13:5": {
+      "count": 65,
+      "sum": 213,
+      "target_mean": 3.27,
+      "value_counter": {
+        "1": 8,
+        "2": 9,
+        "3": 18,
+        "4": 17,
+        "5": 13
+      }
+    },
+    "prm|weekend|with_children|13:6": {
+      "count": 65,
+      "sum": 252,
+      "target_mean": 3.87,
+      "value_counter": {
+        "1": 8,
+        "2": 8,
+        "3": 6,
+        "4": 5,
+        "5": 38
+      }
+    },
+    "prm|weekend|with_children|13:7": {
+      "count": 65,
+      "sum": 247,
+      "target_mean": 3.8,
+      "value_counter": {
+        "1": 8,
+        "2": 4,
+        "3": 10,
+        "4": 14,
+        "5": 29
+      }
+    },
+    "prm|weekend|without_children|9:1": {
+      "count": 48,
+      "sum": 204,
+      "target_mean": 4.25,
+      "value_counter": {
+        "1": 3,
+        "2": 1,
+        "3": 8,
+        "4": 5,
+        "5": 31
+      }
+    },
+    "prm|weekend|without_children|9:2": {
+      "count": 48,
+      "sum": 197,
+      "target_mean": 4.11,
+      "value_counter": {
+        "1": 4,
+        "2": 2,
+        "3": 5,
+        "4": 11,
+        "5": 26
+      }
+    },
+    "prm|weekend|without_children|9:3": {
+      "count": 48,
+      "sum": 182,
+      "target_mean": 3.79,
+      "value_counter": {
+        "1": 2,
+        "2": 10,
+        "3": 6,
+        "4": 8,
+        "5": 22
+      }
+    },
+    "prm|weekend|without_children|9:4": {
+      "count": 48,
+      "sum": 192,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 4,
+        "2": 4,
+        "3": 6,
+        "4": 8,
+        "5": 26
+      }
+    },
+    "prm|weekend|without_children|9:5": {
+      "count": 48,
+      "sum": 177,
+      "target_mean": 3.68,
+      "value_counter": {
+        "1": 2,
+        "2": 9,
+        "3": 9,
+        "4": 10,
+        "5": 18
+      }
+    },
+    "prm|weekend|without_children|9:6": {
+      "count": 48,
+      "sum": 210,
+      "target_mean": 4.37,
+      "value_counter": {
+        "1": 3,
+        "2": 4,
+        "3": 1,
+        "4": 4,
+        "5": 36
+      }
+    },
+    "prm|weekend|without_children|11:1": {
+      "count": 48,
+      "sum": 189,
+      "target_mean": 3.94,
+      "value_counter": {
+        "1": 5,
+        "2": 3,
+        "3": 8,
+        "4": 6,
+        "5": 26
+      }
+    },
+    "prm|weekend|without_children|11:2": {
+      "count": 48,
+      "sum": 186,
+      "target_mean": 3.88,
+      "value_counter": {
+        "1": 3,
+        "2": 5,
+        "3": 7,
+        "4": 13,
+        "5": 20
+      }
+    },
+    "prm|weekend|without_children|11:3": {
+      "count": 48,
+      "sum": 183,
+      "target_mean": 3.81,
+      "value_counter": {
+        "1": 6,
+        "2": 3,
+        "3": 5,
+        "4": 14,
+        "5": 20
+      }
+    },
+    "prm|weekend|without_children|11:4": {
+      "count": 48,
+      "sum": 180,
+      "target_mean": 3.75,
+      "value_counter": {
+        "1": 6,
+        "2": 4,
+        "3": 8,
+        "4": 8,
+        "5": 22
+      }
+    },
+    "prm|weekend|without_children|11:6": {
+      "count": 48,
+      "sum": 178,
+      "target_mean": 3.71,
+      "value_counter": {
+        "1": 8,
+        "2": 2,
+        "3": 7,
+        "4": 10,
+        "5": 21
+      }
+    },
+    "prm|weekend|without_children|11:7": {
+      "count": 48,
+      "sum": 193,
+      "target_mean": 4.03,
+      "value_counter": {
+        "1": 5,
+        "2": 4,
+        "3": 4,
+        "4": 7,
+        "5": 28
+      }
+    },
+    "prm|weekend|without_children|12:1": {
+      "count": 48,
+      "sum": 164,
+      "target_mean": 3.41,
+      "value_counter": {
+        "1": 6,
+        "2": 8,
+        "3": 9,
+        "4": 10,
+        "5": 15
+      }
+    },
+    "prm|weekend|without_children|12:2": {
+      "count": 48,
+      "sum": 144,
+      "target_mean": 3,
+      "value_counter": {
+        "1": 7,
+        "2": 12,
+        "3": 10,
+        "4": 12,
+        "5": 7
+      }
+    },
+    "prm|weekend|without_children|12:3": {
+      "count": 48,
+      "sum": 139,
+      "target_mean": 2.9,
+      "value_counter": {
+        "1": 13,
+        "2": 10,
+        "3": 6,
+        "4": 7,
+        "5": 12
+      }
+    },
+    "prm|weekend|without_children|12:4": {
+      "count": 48,
+      "sum": 144,
+      "target_mean": 3,
+      "value_counter": {
+        "1": 10,
+        "2": 8,
+        "3": 12,
+        "4": 8,
+        "5": 10
+      }
+    },
+    "prm|weekend|without_children|12:5": {
+      "count": 48,
+      "sum": 172,
+      "target_mean": 3.58,
+      "value_counter": {
+        "1": 8,
+        "2": 4,
+        "3": 6,
+        "4": 12,
+        "5": 18
+      }
+    },
+    "prm|weekend|without_children|12:6": {
+      "count": 48,
+      "sum": 165,
+      "target_mean": 3.44,
+      "value_counter": {
+        "1": 5,
+        "2": 9,
+        "3": 8,
+        "4": 12,
+        "5": 14
+      }
+    },
+    "prm|weekend|without_children|12:7": {
+      "count": 48,
+      "sum": 182,
+      "target_mean": 3.8,
+      "value_counter": {
+        "1": 6,
+        "2": 6,
+        "3": 5,
+        "4": 6,
+        "5": 25
+      }
+    },
+    "prm|weekend|without_children|13:1": {
+      "count": 48,
+      "sum": 187,
+      "target_mean": 3.9,
+      "value_counter": {
+        "1": 2,
+        "2": 8,
+        "3": 6,
+        "4": 9,
+        "5": 23
+      }
+    },
+    "prm|weekend|without_children|13:2": {
+      "count": 48,
+      "sum": 138,
+      "target_mean": 2.88,
+      "value_counter": {
+        "1": 13,
+        "2": 7,
+        "3": 9,
+        "4": 11,
+        "5": 8
+      }
+    },
+    "prm|weekend|without_children|13:3": {
+      "count": 48,
+      "sum": 153,
+      "target_mean": 3.19,
+      "value_counter": {
+        "1": 7,
+        "2": 9,
+        "3": 9,
+        "4": 14,
+        "5": 9
+      }
+    },
+    "prm|weekend|without_children|13:4": {
+      "count": 48,
+      "sum": 134,
+      "target_mean": 2.8,
+      "value_counter": {
+        "1": 11,
+        "2": 11,
+        "3": 12,
+        "4": 5,
+        "5": 9
+      }
+    },
+    "prm|weekend|without_children|13:5": {
+      "count": 48,
+      "sum": 139,
+      "target_mean": 2.9,
+      "value_counter": {
+        "1": 10,
+        "2": 11,
+        "3": 10,
+        "4": 8,
+        "5": 9
+      }
+    },
+    "prm|weekend|without_children|13:6": {
+      "count": 48,
+      "sum": 174,
+      "target_mean": 3.63,
+      "value_counter": {
+        "1": 4,
+        "2": 6,
+        "3": 9,
+        "4": 14,
+        "5": 15
+      }
+    },
+    "prm|weekend|without_children|13:7": {
+      "count": 48,
+      "sum": 181,
+      "target_mean": 3.77,
+      "value_counter": {
+        "1": 4,
+        "2": 6,
+        "3": 6,
+        "4": 13,
+        "5": 19
+      }
+    },
+    "ufa|weekend|without_children|9:1": {
+      "count": 60,
+      "sum": 255,
+      "target_mean": 4.25,
+      "value_counter": {
+        "1": 2,
+        "2": 8,
+        "3": 2,
+        "4": 9,
+        "5": 39
+      }
+    },
+    "ufa|weekend|without_children|9:2": {
+      "count": 60,
+      "sum": 259,
+      "target_mean": 4.31,
+      "value_counter": {
+        "1": 2,
+        "2": 6,
+        "3": 6,
+        "4": 3,
+        "5": 43
+      }
+    },
+    "ufa|weekend|without_children|9:3": {
+      "count": 60,
+      "sum": 226,
+      "target_mean": 3.77,
+      "value_counter": {
+        "1": 7,
+        "2": 8,
+        "3": 7,
+        "4": 8,
+        "5": 30
+      }
+    },
+    "ufa|weekend|without_children|9:4": {
+      "count": 60,
+      "sum": 281,
+      "target_mean": 4.69,
+      "value_counter": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 10,
+        "5": 47
+      }
+    },
+    "ufa|weekend|without_children|9:5": {
+      "count": 60,
+      "sum": 249,
+      "target_mean": 4.15,
+      "value_counter": {
+        "1": 2,
+        "2": 5,
+        "3": 10,
+        "4": 8,
+        "5": 35
+      }
+    },
+    "ufa|weekend|without_children|9:6": {
+      "count": 60,
+      "sum": 265,
+      "target_mean": 4.42,
+      "value_counter": {
+        "1": 2,
+        "2": 3,
+        "3": 3,
+        "4": 12,
+        "5": 40
+      }
+    },
+    "ufa|weekend|without_children|11:1": {
+      "count": 60,
+      "sum": 243,
+      "target_mean": 4.05,
+      "value_counter": {
+        "1": 6,
+        "2": 7,
+        "3": 3,
+        "4": 6,
+        "5": 38
+      }
+    },
+    "ufa|weekend|without_children|11:2": {
+      "count": 60,
+      "sum": 249,
+      "target_mean": 4.15,
+      "value_counter": {
+        "1": 5,
+        "2": 6,
+        "3": 3,
+        "4": 7,
+        "5": 39
+      }
+    },
+    "ufa|weekend|without_children|11:3": {
+      "count": 60,
+      "sum": 228,
+      "target_mean": 3.8,
+      "value_counter": {
+        "1": 7,
+        "2": 6,
+        "3": 9,
+        "4": 8,
+        "5": 30
+      }
+    },
+    "ufa|weekend|without_children|11:4": {
+      "count": 60,
+      "sum": 219,
+      "target_mean": 3.65,
+      "value_counter": {
+        "1": 8,
+        "2": 6,
+        "3": 11,
+        "4": 9,
+        "5": 26
+      }
+    },
+    "ufa|weekend|without_children|11:6": {
+      "count": 60,
+      "sum": 219,
+      "target_mean": 3.65,
+      "value_counter": {
+        "1": 7,
+        "2": 5,
+        "3": 11,
+        "4": 16,
+        "5": 21
+      }
+    },
+    "ufa|weekend|without_children|11:7": {
+      "count": 60,
+      "sum": 222,
+      "target_mean": 3.7,
+      "value_counter": {
+        "1": 4,
+        "2": 12,
+        "3": 8,
+        "4": 10,
+        "5": 26
+      }
+    },
+    "ufa|weekend|without_children|12:1": {
+      "count": 60,
+      "sum": 240,
+      "target_mean": 4,
+      "value_counter": {
+        "1": 8,
+        "2": 3,
+        "3": 5,
+        "4": 9,
+        "5": 35
+      }
+    },
+    "ufa|weekend|without_children|12:2": {
+      "count": 60,
+      "sum": 222,
+      "target_mean": 3.7,
+      "value_counter": {
+        "1": 6,
+        "2": 8,
+        "3": 10,
+        "4": 10,
+        "5": 26
+      }
+    },
+    "ufa|weekend|without_children|12:3": {
+      "count": 60,
+      "sum": 201,
+      "target_mean": 3.35,
+      "value_counter": {
+        "1": 5,
+        "2": 14,
+        "3": 12,
+        "4": 13,
+        "5": 16
+      }
+    },
+    "ufa|weekend|without_children|12:4": {
+      "count": 60,
+      "sum": 207,
+      "target_mean": 3.45,
+      "value_counter": {
+        "1": 10,
+        "2": 8,
+        "3": 6,
+        "4": 17,
+        "5": 19
+      }
+    },
+    "ufa|weekend|without_children|12:5": {
+      "count": 60,
+      "sum": 225,
+      "target_mean": 3.75,
+      "value_counter": {
+        "1": 7,
+        "2": 6,
+        "3": 9,
+        "4": 11,
+        "5": 27
+      }
+    },
+    "ufa|weekend|without_children|12:6": {
+      "count": 60,
+      "sum": 219,
+      "target_mean": 3.65,
+      "value_counter": {
+        "1": 5,
+        "2": 6,
+        "3": 14,
+        "4": 15,
+        "5": 20
+      }
+    },
+    "ufa|weekend|without_children|12:7": {
+      "count": 60,
+      "sum": 255,
+      "target_mean": 4.25,
+      "value_counter": {
+        "1": 4,
+        "2": 5,
+        "3": 4,
+        "4": 6,
+        "5": 41
+      }
+    },
+    "ufa|weekend|without_children|13:1": {
+      "count": 60,
+      "sum": 237,
+      "target_mean": 3.95,
+      "value_counter": {
+        "1": 5,
+        "2": 4,
+        "3": 10,
+        "4": 11,
+        "5": 30
+      }
+    },
+    "ufa|weekend|without_children|13:2": {
+      "count": 60,
+      "sum": 189,
+      "target_mean": 3.15,
+      "value_counter": {
+        "1": 10,
+        "2": 10,
+        "3": 13,
+        "4": 15,
+        "5": 12
+      }
+    },
+    "ufa|weekend|without_children|13:3": {
+      "count": 60,
+      "sum": 225,
+      "target_mean": 3.75,
+      "value_counter": {
+        "1": 7,
+        "2": 8,
+        "3": 7,
+        "4": 9,
+        "5": 29
+      }
+    },
+    "ufa|weekend|without_children|13:4": {
+      "count": 60,
+      "sum": 180,
+      "target_mean": 3,
+      "value_counter": {
+        "1": 6,
+        "2": 18,
+        "3": 16,
+        "4": 10,
+        "5": 10
+      }
+    },
+    "ufa|weekend|without_children|13:5": {
+      "count": 60,
+      "sum": 204,
+      "target_mean": 3.4,
+      "value_counter": {
+        "1": 9,
+        "2": 9,
+        "3": 10,
+        "4": 13,
+        "5": 19
+      }
+    },
+    "ufa|weekend|without_children|13:6": {
+      "count": 60,
+      "sum": 231,
+      "target_mean": 3.85,
+      "value_counter": {
+        "1": 5,
+        "2": 6,
+        "3": 10,
+        "4": 11,
+        "5": 28
+      }
+    },
+    "ufa|weekend|without_children|13:7": {
+      "count": 60,
+      "sum": 228,
+      "target_mean": 3.8,
+      "value_counter": {
+        "1": 4,
+        "2": 6,
+        "3": 13,
+        "4": 12,
+        "5": 25
+      }
+    },
+    "ufa|vacation|with_children|9:1": {
+      "count": 62,
+      "sum": 279,
+      "target_mean": 4.5,
+      "value_counter": {
+        "1": 1,
+        "2": 4,
+        "3": 6,
+        "4": 3,
+        "5": 48
+      }
+    },
+    "ufa|vacation|with_children|9:2": {
+      "count": 62,
+      "sum": 282,
+      "target_mean": 4.55,
+      "value_counter": {
+        "1": 2,
+        "2": 3,
+        "3": 3,
+        "4": 5,
+        "5": 49
+      }
+    },
+    "ufa|vacation|with_children|9:3": {
+      "count": 62,
+      "sum": 222,
+      "target_mean": 3.58,
+      "value_counter": {
+        "1": 9,
+        "2": 5,
+        "3": 13,
+        "4": 11,
+        "5": 24
+      }
+    },
+    "ufa|vacation|with_children|9:4": {
+      "count": 62,
+      "sum": 284,
+      "target_mean": 4.58,
+      "value_counter": {
+        "1": 3,
+        "2": 1,
+        "3": 3,
+        "4": 5,
+        "5": 50
+      }
+    },
+    "ufa|vacation|with_children|9:5": {
+      "count": 62,
+      "sum": 253,
+      "target_mean": 4.08,
+      "value_counter": {
+        "1": 5,
+        "2": 2,
+        "3": 8,
+        "4": 15,
+        "5": 32
+      }
+    },
+    "ufa|vacation|with_children|9:6": {
+      "count": 62,
+      "sum": 279,
+      "target_mean": 4.5,
+      "value_counter": {
+        "1": 5,
+        "2": 1,
+        "3": 4,
+        "4": 0,
+        "5": 52
+      }
+    },
+    "ufa|vacation|with_children|11:1": {
+      "count": 62,
+      "sum": 237,
+      "target_mean": 3.82,
+      "value_counter": {
+        "1": 4,
+        "2": 7,
+        "3": 13,
+        "4": 10,
+        "5": 28
+      }
+    },
+    "ufa|vacation|with_children|11:2": {
+      "count": 62,
+      "sum": 241,
+      "target_mean": 3.88,
+      "value_counter": {
+        "1": 5,
+        "2": 11,
+        "3": 5,
+        "4": 6,
+        "5": 35
+      }
+    },
+    "ufa|vacation|with_children|11:3": {
+      "count": 62,
+      "sum": 223,
+      "target_mean": 3.59,
+      "value_counter": {
+        "1": 7,
+        "2": 11,
+        "3": 9,
+        "4": 8,
+        "5": 27
+      }
+    },
+    "ufa|vacation|with_children|11:4": {
+      "count": 62,
+      "sum": 230,
+      "target_mean": 3.71,
+      "value_counter": {
+        "1": 4,
+        "2": 8,
+        "3": 10,
+        "4": 20,
+        "5": 20
+      }
+    },
+    "ufa|vacation|with_children|11:6": {
+      "count": 62,
+      "sum": 230,
+      "target_mean": 3.71,
+      "value_counter": {
+        "1": 4,
+        "2": 10,
+        "3": 10,
+        "4": 14,
+        "5": 24
+      }
+    },
+    "ufa|vacation|with_children|11:7": {
+      "count": 62,
+      "sum": 223,
+      "target_mean": 3.59,
+      "value_counter": {
+        "1": 8,
+        "2": 8,
+        "3": 10,
+        "4": 11,
+        "5": 25
+      }
+    },
+    "ufa|vacation|with_children|12:1": {
+      "count": 62,
+      "sum": 226,
+      "target_mean": 3.65,
+      "value_counter": {
+        "1": 7,
+        "2": 9,
+        "3": 9,
+        "4": 11,
+        "5": 26
+      }
+    },
+    "ufa|vacation|with_children|12:2": {
+      "count": 62,
+      "sum": 211,
+      "target_mean": 3.41,
+      "value_counter": {
+        "1": 5,
+        "2": 11,
+        "3": 12,
+        "4": 22,
+        "5": 12
+      }
+    },
+    "ufa|vacation|with_children|12:3": {
+      "count": 62,
+      "sum": 237,
+      "target_mean": 3.82,
+      "value_counter": {
+        "1": 8,
+        "2": 7,
+        "3": 5,
+        "4": 10,
+        "5": 32
+      }
+    },
+    "ufa|vacation|with_children|12:4": {
+      "count": 62,
+      "sum": 208,
+      "target_mean": 3.35,
+      "value_counter": {
+        "1": 11,
+        "2": 7,
+        "3": 12,
+        "4": 13,
+        "5": 19
+      }
+    },
+    "ufa|vacation|with_children|12:5": {
+      "count": 62,
+      "sum": 219,
+      "target_mean": 3.53,
+      "value_counter": {
+        "1": 6,
+        "2": 10,
+        "3": 12,
+        "4": 13,
+        "5": 21
+      }
+    },
+    "ufa|vacation|with_children|12:6": {
+      "count": 62,
+      "sum": 233,
+      "target_mean": 3.76,
+      "value_counter": {
+        "1": 6,
+        "2": 6,
+        "3": 11,
+        "4": 13,
+        "5": 26
+      }
+    },
+    "ufa|vacation|with_children|12:7": {
+      "count": 62,
+      "sum": 233,
+      "target_mean": 3.76,
+      "value_counter": {
+        "1": 6,
+        "2": 6,
+        "3": 11,
+        "4": 13,
+        "5": 26
+      }
+    },
+    "ufa|vacation|with_children|13:1": {
+      "count": 62,
+      "sum": 219,
+      "target_mean": 3.53,
+      "value_counter": {
+        "1": 11,
+        "2": 8,
+        "3": 4,
+        "4": 15,
+        "5": 24
+      }
+    },
+    "ufa|vacation|with_children|13:2": {
+      "count": 62,
+      "sum": 194,
+      "target_mean": 3.13,
+      "value_counter": {
+        "1": 10,
+        "2": 11,
+        "3": 15,
+        "4": 13,
+        "5": 13
+      }
+    },
+    "ufa|vacation|with_children|13:3": {
+      "count": 62,
+      "sum": 182,
+      "target_mean": 2.94,
+      "value_counter": {
+        "1": 15,
+        "2": 10,
+        "3": 13,
+        "4": 12,
+        "5": 12
+      }
+    },
+    "ufa|vacation|with_children|13:4": {
+      "count": 62,
+      "sum": 201,
+      "target_mean": 3.24,
+      "value_counter": {
+        "1": 10,
+        "2": 9,
+        "3": 13,
+        "4": 16,
+        "5": 14
+      }
+    },
+    "ufa|vacation|with_children|13:5": {
+      "count": 62,
+      "sum": 223,
+      "target_mean": 3.59,
+      "value_counter": {
+        "1": 6,
+        "2": 11,
+        "3": 10,
+        "4": 10,
+        "5": 25
+      }
+    },
+    "ufa|vacation|with_children|13:6": {
+      "count": 62,
+      "sum": 217,
+      "target_mean": 3.5,
+      "value_counter": {
+        "1": 8,
+        "2": 10,
+        "3": 11,
+        "4": 9,
+        "5": 24
+      }
+    },
+    "ufa|vacation|with_children|13:7": {
+      "count": 62,
+      "sum": 226,
+      "target_mean": 3.65,
+      "value_counter": {
+        "1": 6,
+        "2": 8,
+        "3": 12,
+        "4": 12,
+        "5": 24
+      }
+    }
+  },
+  "last_updated": "2026-03-05T13:02:26.798Z"
+}

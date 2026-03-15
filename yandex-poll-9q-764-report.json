@@ -1,0 +1,6116 @@
+{
+  "config": {
+    "FORM_URL": "https://yandex.ru/poll/9qE9TNC8HbhbeDUjDjwm79",
+    "RUN_MODE": "quota",
+    "TARGET_SUCCESSFUL_SUBMITS": 3,
+    "BRANCH_POLICY": "random_yes_no",
+    "CAPTCHA_POLICY": "restart_browser",
+    "MAX_TOTAL_ATTEMPTS": 300000,
+    "HEADLESS": false,
+    "BROWSER_NAME": "chromium",
+    "BROWSER_CHANNEL": "chrome",
+    "BROWSER_EXECUTABLE_PATH": "",
+    "INCOGNITO": true,
+    "STRICT_RULES_ONLY": true,
+    "QUOTA_STATE_PATH": "./quota-state-9q-764.json",
+    "QUOTA_TARGETS_PATH": "./quota-targets-764-photo.json",
+    "RESET_QUOTA_STATE": false,
+    "LIKERT_TARGETS_PATH": "./likert-targets.json",
+    "PAGE_VALIDATION_RETRIES": 4,
+    "START_PAGE_RECOVERY_ATTEMPTS": 5,
+    "FORM_DOM_MODE": "pythia",
+    "VALIDATION_VISIBLE_ONLY": true,
+    "RADIO_FALLBACK_STRATEGY": "aggressive",
+    "LOG_PAGE_DEBUG": true,
+    "SCHEMA_DISCOVERY_MODE": "startup_localstorage",
+    "SCHEMA_STORAGE_KEY": "auto",
+    "SELECTOR_STRATEGY": "text",
+    "TABLE_SCALE_NO_OPINION_POLICY": "never",
+    "LIKERT_NO_TARGET_SCORE": 4
+  },
+  "summary": {
+    "successful_submits": 0,
+    "attempts_total": 0,
+    "attempt_status_counter": {},
+    "target_reached": false,
+    "run_exit_reason": "stopped_by_sigint",
+    "scheme_counter_successful_runs": {
+      "random": 0,
+      "rule_based": 0,
+      "mixed": 0
+    },
+    "quota_target_total": 764,
+    "quota_completed_total": 364,
+    "quota_remaining_total": 400,
+    "quota_completed": {
+      "nsk|vacation|with_children|yp": 23,
+      "nsk|vacation|with_children|other": 14,
+      "nsk|vacation|without_children|yp": 21,
+      "nsk|vacation|without_children|other": 0,
+      "nsk|weekend|with_children|yp": 21,
+      "nsk|weekend|with_children|other": 15,
+      "nsk|weekend|without_children|yp": 21,
+      "nsk|weekend|without_children|other": 15,
+      "ufa|vacation|with_children|yp": 19,
+      "ufa|vacation|with_children|other": 9,
+      "ufa|vacation|without_children|yp": 21,
+      "ufa|vacation|without_children|other": 12,
+      "ufa|weekend|with_children|yp": 23,
+      "ufa|weekend|with_children|other": 19,
+      "ufa|weekend|without_children|yp": 20,
+      "ufa|weekend|without_children|other": 6,
+      "prm|vacation|with_children|yp": 21,
+      "prm|vacation|with_children|other": 10,
+      "prm|vacation|without_children|yp": 21,
+      "prm|vacation|without_children|other": 2,
+      "prm|weekend|with_children|yp": 20,
+      "prm|weekend|with_children|other": 11,
+      "prm|weekend|without_children|yp": 20,
+      "prm|weekend|without_children|other": 0
+    },
+    "quota_remaining": {
+      "nsk|vacation|with_children|yp": 16,
+      "nsk|vacation|with_children|other": 16,
+      "nsk|vacation|without_children|yp": 17,
+      "nsk|vacation|without_children|other": 17,
+      "nsk|weekend|with_children|yp": 17,
+      "nsk|weekend|with_children|other": 17,
+      "nsk|weekend|without_children|yp": 17,
+      "nsk|weekend|without_children|other": 17,
+      "ufa|vacation|with_children|yp": 17,
+      "ufa|vacation|with_children|other": 17,
+      "ufa|vacation|without_children|yp": 17,
+      "ufa|vacation|without_children|other": 17,
+      "ufa|weekend|with_children|yp": 17,
+      "ufa|weekend|with_children|other": 17,
+      "ufa|weekend|without_children|yp": 17,
+      "ufa|weekend|without_children|other": 17,
+      "prm|vacation|with_children|yp": 17,
+      "prm|vacation|with_children|other": 17,
+      "prm|vacation|without_children|yp": 17,
+      "prm|vacation|without_children|other": 17,
+      "prm|weekend|with_children|yp": 17,
+      "prm|weekend|with_children|other": 17,
+      "prm|weekend|without_children|yp": 17,
+      "prm|weekend|without_children|other": 11
+    },
+    "quota_reached": false,
+    "answer_counter_quota_successful_runs": {
+      "city": {
+        "nsk": 130,
+        "ufa": 129,
+        "prm": 105
+      },
+      "trip_type": {
+        "vacation": 173,
+        "weekend": 191
+      },
+      "children_mode": {
+        "with_children": 205,
+        "without_children": 159
+      },
+      "provider_bucket": {
+        "yp": 251,
+        "other": 113
+      },
+      "organizer": {
+        "yes": 364,
+        "no": 0
+      }
+    },
+    "answer_counter_quota_successful_runs_with_gender": {
+      "city": {
+        "nsk": 130,
+        "ufa": 129,
+        "prm": 105
+      },
+      "trip_type": {
+        "vacation": 173,
+        "weekend": 191
+      },
+      "children_mode": {
+        "with_children": 205,
+        "without_children": 159
+      },
+      "provider_bucket": {
+        "yp": 251,
+        "other": 113
+      },
+      "organizer": {
+        "yes": 364,
+        "no": 0
+      },
+      "gender": {
+        "male": 182,
+        "female": 182
+      }
+    },
+    "answer_counter_city_labels": {
+      "Новосибирск": 130,
+      "Уфа": 129,
+      "Пермь": 105
+    },
+    "gender_counter_successful_runs": {
+      "male": 182,
+      "female": 182
+    },
+    "gender_balance_diff": 0,
+    "quota_state_last_updated": "2026-03-05T06:22:27.778Z",
+    "likert_targets_count": 33,
+    "likert_expected_total": 764,
+    "likert_progress": {
+      "ufa|weekend|with_children|9:2": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "9:2",
+        "target_mean": 4.75,
+        "mean_current": 4.739130434782608,
+        "count": 23,
+        "sum": 109,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 6,
+          "5": 17
+        }
+      },
+      "ufa|weekend|with_children|9:6": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "9:6",
+        "target_mean": 3.75,
+        "mean_current": 3.739130434782609,
+        "count": 23,
+        "sum": 86,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 6,
+          "4": 17,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|9:1": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "9:1",
+        "target_mean": 4.25,
+        "mean_current": 4.260869565217392,
+        "count": 23,
+        "sum": 98,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 17,
+          "5": 6
+        }
+      },
+      "ufa|weekend|with_children|9:5": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "9:5",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 23,
+        "sum": 92,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 23,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|9:4": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "9:4",
+        "target_mean": 4.25,
+        "mean_current": 4.260869565217392,
+        "count": 23,
+        "sum": 98,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 17,
+          "5": 6
+        }
+      },
+      "ufa|weekend|with_children|9:3": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "9:3",
+        "target_mean": 3.67,
+        "mean_current": 3.652173913043478,
+        "count": 23,
+        "sum": 84,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 15,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|10:5": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "10:5",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 23,
+        "sum": 92,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 23,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|10:3": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "10:3",
+        "target_mean": 3.75,
+        "mean_current": 3.739130434782609,
+        "count": 23,
+        "sum": 86,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 6,
+          "4": 17,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|10:4": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "10:4",
+        "target_mean": 4.5,
+        "mean_current": 4.521739130434782,
+        "count": 23,
+        "sum": 104,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 11,
+          "5": 12
+        }
+      },
+      "ufa|weekend|with_children|10:1": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "10:1",
+        "target_mean": 3,
+        "mean_current": 3,
+        "count": 23,
+        "sum": 69,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 23,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|10:6": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "10:6",
+        "target_mean": 4.25,
+        "mean_current": 4.260869565217392,
+        "count": 23,
+        "sum": 98,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 17,
+          "5": 6
+        }
+      },
+      "ufa|weekend|with_children|10:2": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "10:2",
+        "target_mean": 4.75,
+        "mean_current": 4.739130434782608,
+        "count": 23,
+        "sum": 109,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 6,
+          "5": 17
+        }
+      },
+      "ufa|weekend|with_children|11:2": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "11:2",
+        "target_mean": 4.33,
+        "mean_current": 4.333333333333333,
+        "count": 42,
+        "sum": 182,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 28,
+          "5": 14
+        }
+      },
+      "ufa|weekend|with_children|11:5": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "11:5",
+        "target_mean": 4.33,
+        "mean_current": 4.333333333333333,
+        "count": 42,
+        "sum": 182,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 28,
+          "5": 14
+        }
+      },
+      "ufa|weekend|with_children|11:1": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "11:1",
+        "target_mean": 5,
+        "mean_current": 5,
+        "count": 42,
+        "sum": 210,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 42
+        }
+      },
+      "ufa|weekend|with_children|11:4": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "11:4",
+        "target_mean": 4.5,
+        "mean_current": 4.5,
+        "count": 42,
+        "sum": 189,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 21,
+          "5": 21
+        }
+      },
+      "ufa|weekend|with_children|11:3": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "11:3",
+        "target_mean": 4.33,
+        "mean_current": 4.333333333333333,
+        "count": 42,
+        "sum": 182,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 28,
+          "5": 14
+        }
+      },
+      "ufa|weekend|with_children|11:7": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "11:7",
+        "target_mean": 4.17,
+        "mean_current": 4.166666666666667,
+        "count": 42,
+        "sum": 175,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 35,
+          "5": 7
+        }
+      },
+      "ufa|weekend|with_children|11:6": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "11:6",
+        "target_mean": 4.33,
+        "mean_current": 4.333333333333333,
+        "count": 42,
+        "sum": 182,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 28,
+          "5": 14
+        }
+      },
+      "ufa|weekend|with_children|12:4": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "12:4",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 42,
+        "sum": 168,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 42,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|12:7": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "12:7",
+        "target_mean": 4.33,
+        "mean_current": 4.333333333333333,
+        "count": 42,
+        "sum": 182,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 28,
+          "5": 14
+        }
+      },
+      "ufa|weekend|with_children|12:5": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "12:5",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 42,
+        "sum": 168,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 42,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|12:2": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "12:2",
+        "target_mean": 3.83,
+        "mean_current": 3.8333333333333335,
+        "count": 42,
+        "sum": 161,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 7,
+          "4": 35,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|12:3": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "12:3",
+        "target_mean": 3.83,
+        "mean_current": 3.8333333333333335,
+        "count": 42,
+        "sum": 161,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 7,
+          "4": 35,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|12:6": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "12:6",
+        "target_mean": 3.67,
+        "mean_current": 3.6666666666666665,
+        "count": 42,
+        "sum": 154,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 14,
+          "4": 28,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|12:1": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "12:1",
+        "target_mean": 3.67,
+        "mean_current": 3.6666666666666665,
+        "count": 42,
+        "sum": 154,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 14,
+          "4": 28,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|13:1": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "13:1",
+        "target_mean": 4.67,
+        "mean_current": 4.666666666666667,
+        "count": 42,
+        "sum": 196,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 14,
+          "5": 28
+        }
+      },
+      "ufa|weekend|with_children|13:3": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "13:3",
+        "target_mean": 3.67,
+        "mean_current": 3.6666666666666665,
+        "count": 42,
+        "sum": 154,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 14,
+          "4": 28,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|13:7": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "13:7",
+        "target_mean": 4.17,
+        "mean_current": 4.166666666666667,
+        "count": 42,
+        "sum": 175,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 35,
+          "5": 7
+        }
+      },
+      "ufa|weekend|with_children|13:5": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "13:5",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 42,
+        "sum": 168,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 42,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|13:6": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "13:6",
+        "target_mean": 4.33,
+        "mean_current": 4.333333333333333,
+        "count": 42,
+        "sum": 182,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 28,
+          "5": 14
+        }
+      },
+      "ufa|weekend|with_children|13:2": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "13:2",
+        "target_mean": 3.67,
+        "mean_current": 3.6666666666666665,
+        "count": 42,
+        "sum": 154,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 14,
+          "4": 28,
+          "5": 0
+        }
+      },
+      "ufa|weekend|with_children|13:4": {
+        "segment_key": "ufa|weekend|with_children",
+        "rule_id": "13:4",
+        "target_mean": 4.4,
+        "mean_current": 4.404761904761905,
+        "count": 42,
+        "sum": 185,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 25,
+          "5": 17
+        }
+      },
+      "nsk|vacation|with_children|9:1": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "9:1",
+        "target_mean": 3.6,
+        "mean_current": 3.608695652173913,
+        "count": 23,
+        "sum": 83,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 9,
+          "4": 14,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|9:3": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "9:3",
+        "target_mean": 3.78,
+        "mean_current": 3.782608695652174,
+        "count": 23,
+        "sum": 87,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 5,
+          "4": 18,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|9:2": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "9:2",
+        "target_mean": 4.56,
+        "mean_current": 4.565217391304348,
+        "count": 23,
+        "sum": 105,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 10,
+          "5": 13
+        }
+      },
+      "nsk|vacation|with_children|9:6": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "9:6",
+        "target_mean": 4.44,
+        "mean_current": 4.434782608695652,
+        "count": 23,
+        "sum": 102,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 13,
+          "5": 10
+        }
+      },
+      "nsk|vacation|with_children|9:4": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "9:4",
+        "target_mean": 4.56,
+        "mean_current": 4.565217391304348,
+        "count": 23,
+        "sum": 105,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 10,
+          "5": 13
+        }
+      },
+      "nsk|vacation|with_children|9:5": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "9:5",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 23,
+        "sum": 92,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 23,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|10:4": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "10:4",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 23,
+        "sum": 23,
+        "value_counter": {
+          "1": 23,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|10:6": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "10:6",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 23,
+        "sum": 23,
+        "value_counter": {
+          "1": 23,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|10:3": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "10:3",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 23,
+        "sum": 23,
+        "value_counter": {
+          "1": 23,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|10:1": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "10:1",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 23,
+        "sum": 23,
+        "value_counter": {
+          "1": 23,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|10:5": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "10:5",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 23,
+        "sum": 23,
+        "value_counter": {
+          "1": 23,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|10:2": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "10:2",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 23,
+        "sum": 23,
+        "value_counter": {
+          "1": 23,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|11:2": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "11:2",
+        "target_mean": 4.36,
+        "mean_current": 4.351351351351352,
+        "count": 37,
+        "sum": 161,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 24,
+          "5": 13
+        }
+      },
+      "nsk|vacation|with_children|11:4": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "11:4",
+        "target_mean": 3.82,
+        "mean_current": 3.810810810810811,
+        "count": 37,
+        "sum": 141,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 7,
+          "4": 30,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|11:7": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "11:7",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 37,
+        "sum": 148,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 37,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|11:1": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "11:1",
+        "target_mean": 4.55,
+        "mean_current": 4.54054054054054,
+        "count": 37,
+        "sum": 168,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 17,
+          "5": 20
+        }
+      },
+      "nsk|vacation|with_children|11:5": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "11:5",
+        "target_mean": 4.36,
+        "mean_current": 4.351351351351352,
+        "count": 37,
+        "sum": 161,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 24,
+          "5": 13
+        }
+      },
+      "nsk|vacation|with_children|11:3": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "11:3",
+        "target_mean": 4.09,
+        "mean_current": 4.081081081081081,
+        "count": 37,
+        "sum": 151,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 34,
+          "5": 3
+        }
+      },
+      "nsk|vacation|with_children|11:6": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "11:6",
+        "target_mean": 4.18,
+        "mean_current": 4.1891891891891895,
+        "count": 37,
+        "sum": 155,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 30,
+          "5": 7
+        }
+      },
+      "nsk|vacation|with_children|12:1": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "12:1",
+        "target_mean": 4.18,
+        "mean_current": 4.1891891891891895,
+        "count": 37,
+        "sum": 155,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 30,
+          "5": 7
+        }
+      },
+      "nsk|vacation|with_children|12:3": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "12:3",
+        "target_mean": 3.55,
+        "mean_current": 3.5405405405405403,
+        "count": 37,
+        "sum": 131,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 17,
+          "4": 20,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|12:2": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "12:2",
+        "target_mean": 3.73,
+        "mean_current": 3.72972972972973,
+        "count": 37,
+        "sum": 138,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 10,
+          "4": 27,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|12:7": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "12:7",
+        "target_mean": 3.91,
+        "mean_current": 3.918918918918919,
+        "count": 37,
+        "sum": 145,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 3,
+          "4": 34,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|12:6": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "12:6",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 37,
+        "sum": 148,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 37,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|12:4": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "12:4",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 37,
+        "sum": 148,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 37,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|12:5": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "12:5",
+        "target_mean": 3.91,
+        "mean_current": 3.918918918918919,
+        "count": 37,
+        "sum": 145,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 3,
+          "4": 34,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|13:3": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "13:3",
+        "target_mean": 3.91,
+        "mean_current": 3.918918918918919,
+        "count": 37,
+        "sum": 145,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 3,
+          "4": 34,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|13:5": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "13:5",
+        "target_mean": 3.82,
+        "mean_current": 3.810810810810811,
+        "count": 37,
+        "sum": 141,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 7,
+          "4": 30,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|13:1": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "13:1",
+        "target_mean": 4.27,
+        "mean_current": 4.27027027027027,
+        "count": 37,
+        "sum": 158,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 27,
+          "5": 10
+        }
+      },
+      "nsk|vacation|with_children|13:2": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "13:2",
+        "target_mean": 3.73,
+        "mean_current": 3.72972972972973,
+        "count": 37,
+        "sum": 138,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 10,
+          "4": 27,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|13:7": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "13:7",
+        "target_mean": 4.27,
+        "mean_current": 4.27027027027027,
+        "count": 37,
+        "sum": 158,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 27,
+          "5": 10
+        }
+      },
+      "nsk|vacation|with_children|13:6": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "13:6",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 37,
+        "sum": 148,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 37,
+          "5": 0
+        }
+      },
+      "nsk|vacation|with_children|13:4": {
+        "segment_key": "nsk|vacation|with_children",
+        "rule_id": "13:4",
+        "target_mean": 4.27,
+        "mean_current": 4.27027027027027,
+        "count": 37,
+        "sum": 158,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 27,
+          "5": 10
+        }
+      },
+      "nsk|vacation|without_children|9:6": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "9:6",
+        "target_mean": 4.31,
+        "mean_current": 4.333333333333333,
+        "count": 21,
+        "sum": 91,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 14,
+          "5": 7
+        }
+      },
+      "nsk|vacation|without_children|9:3": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "9:3",
+        "target_mean": 3.78,
+        "mean_current": 3.761904761904762,
+        "count": 21,
+        "sum": 79,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 5,
+          "4": 16,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|9:5": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "9:5",
+        "target_mean": 3.94,
+        "mean_current": 3.9523809523809526,
+        "count": 21,
+        "sum": 83,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 20,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|9:1": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "9:1",
+        "target_mean": 4.5,
+        "mean_current": 4.523809523809524,
+        "count": 21,
+        "sum": 95,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 10,
+          "5": 11
+        }
+      },
+      "nsk|vacation|without_children|9:4": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "9:4",
+        "target_mean": 4.65,
+        "mean_current": 4.666666666666667,
+        "count": 21,
+        "sum": 98,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 7,
+          "5": 14
+        }
+      },
+      "nsk|vacation|without_children|9:2": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "9:2",
+        "target_mean": 4.76,
+        "mean_current": 4.761904761904762,
+        "count": 21,
+        "sum": 100,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 5,
+          "5": 16
+        }
+      },
+      "nsk|vacation|without_children|10:6": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "10:6",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|10:2": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "10:2",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|10:5": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "10:5",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|10:4": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "10:4",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|10:3": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "10:3",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|10:1": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "10:1",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|11:2": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "11:2",
+        "target_mean": 4.35,
+        "mean_current": 4.333333333333333,
+        "count": 21,
+        "sum": 91,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 14,
+          "5": 7
+        }
+      },
+      "nsk|vacation|without_children|11:1": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "11:1",
+        "target_mean": 4.25,
+        "mean_current": 4.238095238095238,
+        "count": 21,
+        "sum": 89,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 16,
+          "5": 5
+        }
+      },
+      "nsk|vacation|without_children|11:6": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "11:6",
+        "target_mean": 3.63,
+        "mean_current": 3.619047619047619,
+        "count": 21,
+        "sum": 76,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 13,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|11:7": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "11:7",
+        "target_mean": 3.92,
+        "mean_current": 3.9047619047619047,
+        "count": 21,
+        "sum": 82,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 19,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|11:5": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "11:5",
+        "target_mean": 3.92,
+        "mean_current": 3.9047619047619047,
+        "count": 21,
+        "sum": 82,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 19,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|11:4": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "11:4",
+        "target_mean": 3.71,
+        "mean_current": 3.7142857142857144,
+        "count": 21,
+        "sum": 78,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 6,
+          "4": 15,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|11:3": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "11:3",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 21,
+        "sum": 84,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|12:6": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "12:6",
+        "target_mean": 3.13,
+        "mean_current": 3.142857142857143,
+        "count": 21,
+        "sum": 66,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 18,
+          "4": 3,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|12:5": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "12:5",
+        "target_mean": 3.54,
+        "mean_current": 3.5238095238095237,
+        "count": 21,
+        "sum": 74,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 10,
+          "4": 11,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|12:2": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "12:2",
+        "target_mean": 3.42,
+        "mean_current": 3.4285714285714284,
+        "count": 21,
+        "sum": 72,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 12,
+          "4": 9,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|12:1": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "12:1",
+        "target_mean": 3.46,
+        "mean_current": 3.4761904761904763,
+        "count": 21,
+        "sum": 73,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 11,
+          "4": 10,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|12:3": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "12:3",
+        "target_mean": 3.17,
+        "mean_current": 3.1904761904761907,
+        "count": 21,
+        "sum": 67,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 17,
+          "4": 4,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|12:7": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "12:7",
+        "target_mean": 3.43,
+        "mean_current": 3.4285714285714284,
+        "count": 21,
+        "sum": 72,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 12,
+          "4": 9,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|12:4": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "12:4",
+        "target_mean": 3.26,
+        "mean_current": 3.238095238095238,
+        "count": 21,
+        "sum": 68,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 16,
+          "4": 5,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|13:3": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "13:3",
+        "target_mean": 3.7,
+        "mean_current": 3.7142857142857144,
+        "count": 21,
+        "sum": 78,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 6,
+          "4": 15,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|13:6": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "13:6",
+        "target_mean": 3.58,
+        "mean_current": 3.5714285714285716,
+        "count": 21,
+        "sum": 75,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 9,
+          "4": 12,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|13:5": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "13:5",
+        "target_mean": 3.25,
+        "mean_current": 3.238095238095238,
+        "count": 21,
+        "sum": 68,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 16,
+          "4": 5,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|13:2": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "13:2",
+        "target_mean": 3.33,
+        "mean_current": 3.3333333333333335,
+        "count": 21,
+        "sum": 70,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 14,
+          "4": 7,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|13:1": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "13:1",
+        "target_mean": 3.7,
+        "mean_current": 3.7142857142857144,
+        "count": 21,
+        "sum": 78,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 6,
+          "4": 15,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|13:7": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "13:7",
+        "target_mean": 3.75,
+        "mean_current": 3.761904761904762,
+        "count": 21,
+        "sum": 79,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 5,
+          "4": 16,
+          "5": 0
+        }
+      },
+      "nsk|vacation|without_children|13:4": {
+        "segment_key": "nsk|vacation|without_children",
+        "rule_id": "13:4",
+        "target_mean": 3.21,
+        "mean_current": 3.1904761904761907,
+        "count": 21,
+        "sum": 67,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 17,
+          "4": 4,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|9:1": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "9:1",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 21,
+        "sum": 84,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|9:5": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "9:5",
+        "target_mean": 3.88,
+        "mean_current": 3.857142857142857,
+        "count": 21,
+        "sum": 81,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 3,
+          "4": 18,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|9:3": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "9:3",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 21,
+        "sum": 84,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|9:4": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "9:4",
+        "target_mean": 4.38,
+        "mean_current": 4.380952380952381,
+        "count": 21,
+        "sum": 92,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 13,
+          "5": 8
+        }
+      },
+      "nsk|weekend|with_children|9:2": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "9:2",
+        "target_mean": 4.13,
+        "mean_current": 4.142857142857143,
+        "count": 21,
+        "sum": 87,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 18,
+          "5": 3
+        }
+      },
+      "nsk|weekend|with_children|9:6": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "9:6",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 21,
+        "sum": 84,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|10:1": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "10:1",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|10:3": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "10:3",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|10:2": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "10:2",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|10:5": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "10:5",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|10:4": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "10:4",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|10:6": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "10:6",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|11:1": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "11:1",
+        "target_mean": 4.22,
+        "mean_current": 4.222222222222222,
+        "count": 36,
+        "sum": 152,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 28,
+          "5": 8
+        }
+      },
+      "nsk|weekend|with_children|11:4": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "11:4",
+        "target_mean": 3.78,
+        "mean_current": 3.7777777777777777,
+        "count": 36,
+        "sum": 136,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 28,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|11:5": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "11:5",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 36,
+        "sum": 144,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 36,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|11:6": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "11:6",
+        "target_mean": 4.22,
+        "mean_current": 4.222222222222222,
+        "count": 36,
+        "sum": 152,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 28,
+          "5": 8
+        }
+      },
+      "nsk|weekend|with_children|11:2": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "11:2",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 36,
+        "sum": 144,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 36,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|11:7": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "11:7",
+        "target_mean": 3.78,
+        "mean_current": 3.7777777777777777,
+        "count": 36,
+        "sum": 136,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 28,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|11:3": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "11:3",
+        "target_mean": 4.22,
+        "mean_current": 4.222222222222222,
+        "count": 36,
+        "sum": 152,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 28,
+          "5": 8
+        }
+      },
+      "nsk|weekend|with_children|12:2": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "12:2",
+        "target_mean": 3.67,
+        "mean_current": 3.6666666666666665,
+        "count": 36,
+        "sum": 132,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 12,
+          "4": 24,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|12:6": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "12:6",
+        "target_mean": 3.78,
+        "mean_current": 3.7777777777777777,
+        "count": 36,
+        "sum": 136,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 28,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|12:3": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "12:3",
+        "target_mean": 3.44,
+        "mean_current": 3.4444444444444446,
+        "count": 36,
+        "sum": 124,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 20,
+          "4": 16,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|12:7": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "12:7",
+        "target_mean": 3.75,
+        "mean_current": 3.75,
+        "count": 36,
+        "sum": 135,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 9,
+          "4": 27,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|12:5": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "12:5",
+        "target_mean": 3.44,
+        "mean_current": 3.4444444444444446,
+        "count": 36,
+        "sum": 124,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 20,
+          "4": 16,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|12:4": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "12:4",
+        "target_mean": 3.33,
+        "mean_current": 3.3333333333333335,
+        "count": 36,
+        "sum": 120,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 24,
+          "4": 12,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|12:1": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "12:1",
+        "target_mean": 3.67,
+        "mean_current": 3.6666666666666665,
+        "count": 36,
+        "sum": 132,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 12,
+          "4": 24,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|13:3": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "13:3",
+        "target_mean": 3.44,
+        "mean_current": 3.4444444444444446,
+        "count": 36,
+        "sum": 124,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 20,
+          "4": 16,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|13:1": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "13:1",
+        "target_mean": 4.5,
+        "mean_current": 4.5,
+        "count": 36,
+        "sum": 162,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 18,
+          "5": 18
+        }
+      },
+      "nsk|weekend|with_children|13:5": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "13:5",
+        "target_mean": 3.44,
+        "mean_current": 3.4444444444444446,
+        "count": 36,
+        "sum": 124,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 20,
+          "4": 16,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|13:6": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "13:6",
+        "target_mean": 4.13,
+        "mean_current": 4.138888888888889,
+        "count": 36,
+        "sum": 149,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 31,
+          "5": 5
+        }
+      },
+      "nsk|weekend|with_children|13:4": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "13:4",
+        "target_mean": 3.33,
+        "mean_current": 3.3333333333333335,
+        "count": 36,
+        "sum": 120,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 24,
+          "4": 12,
+          "5": 0
+        }
+      },
+      "nsk|weekend|with_children|13:7": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "13:7",
+        "target_mean": 4.22,
+        "mean_current": 4.222222222222222,
+        "count": 36,
+        "sum": 152,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 28,
+          "5": 8
+        }
+      },
+      "nsk|weekend|with_children|13:2": {
+        "segment_key": "nsk|weekend|with_children",
+        "rule_id": "13:2",
+        "target_mean": 3.56,
+        "mean_current": 3.5555555555555554,
+        "count": 36,
+        "sum": 128,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 16,
+          "4": 20,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|9:5": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "9:5",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 21,
+        "sum": 84,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|9:2": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "9:2",
+        "target_mean": 3.88,
+        "mean_current": 3.857142857142857,
+        "count": 21,
+        "sum": 81,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 3,
+          "4": 18,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|9:6": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "9:6",
+        "target_mean": 4.57,
+        "mean_current": 4.571428571428571,
+        "count": 21,
+        "sum": 96,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 9,
+          "5": 12
+        }
+      },
+      "nsk|weekend|without_children|9:1": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "9:1",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 21,
+        "sum": 84,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|9:4": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "9:4",
+        "target_mean": 4.67,
+        "mean_current": 4.666666666666667,
+        "count": 21,
+        "sum": 98,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 7,
+          "5": 14
+        }
+      },
+      "nsk|weekend|without_children|9:3": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "9:3",
+        "target_mean": 3.93,
+        "mean_current": 3.9523809523809526,
+        "count": 21,
+        "sum": 83,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 20,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|10:6": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "10:6",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|10:1": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "10:1",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|10:5": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "10:5",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|10:4": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "10:4",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|10:2": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "10:2",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|10:3": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "10:3",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|11:1": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "11:1",
+        "target_mean": 4.06,
+        "mean_current": 4.055555555555555,
+        "count": 36,
+        "sum": 146,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 34,
+          "5": 2
+        }
+      },
+      "nsk|weekend|without_children|11:3": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "11:3",
+        "target_mean": 3.9,
+        "mean_current": 3.888888888888889,
+        "count": 36,
+        "sum": 140,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 32,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|11:7": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "11:7",
+        "target_mean": 3.79,
+        "mean_current": 3.7777777777777777,
+        "count": 36,
+        "sum": 136,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 28,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|11:2": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "11:2",
+        "target_mean": 3.89,
+        "mean_current": 3.888888888888889,
+        "count": 36,
+        "sum": 140,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 32,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|11:4": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "11:4",
+        "target_mean": 3.53,
+        "mean_current": 3.5277777777777777,
+        "count": 36,
+        "sum": 127,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 17,
+          "4": 19,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|11:5": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "11:5",
+        "target_mean": 4.42,
+        "mean_current": 4.416666666666667,
+        "count": 36,
+        "sum": 159,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 21,
+          "5": 15
+        }
+      },
+      "nsk|weekend|without_children|11:6": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "11:6",
+        "target_mean": 3.78,
+        "mean_current": 3.7777777777777777,
+        "count": 36,
+        "sum": 136,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 28,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|12:2": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "12:2",
+        "target_mean": 3.35,
+        "mean_current": 3.361111111111111,
+        "count": 36,
+        "sum": 121,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 23,
+          "4": 13,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|12:1": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "12:1",
+        "target_mean": 3.61,
+        "mean_current": 3.611111111111111,
+        "count": 36,
+        "sum": 130,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 14,
+          "4": 22,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|12:3": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "12:3",
+        "target_mean": 2.79,
+        "mean_current": 2.7777777777777777,
+        "count": 36,
+        "sum": 100,
+        "value_counter": {
+          "1": 0,
+          "2": 8,
+          "3": 28,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|12:5": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "12:5",
+        "target_mean": 3.58,
+        "mean_current": 3.5833333333333335,
+        "count": 36,
+        "sum": 129,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 15,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|12:6": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "12:6",
+        "target_mean": 3.35,
+        "mean_current": 3.361111111111111,
+        "count": 36,
+        "sum": 121,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 23,
+          "4": 13,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|12:4": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "12:4",
+        "target_mean": 3.4,
+        "mean_current": 3.388888888888889,
+        "count": 36,
+        "sum": 122,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 22,
+          "4": 14,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|12:7": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "12:7",
+        "target_mean": 3.61,
+        "mean_current": 3.611111111111111,
+        "count": 36,
+        "sum": 130,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 14,
+          "4": 22,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|13:5": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "13:5",
+        "target_mean": 3.1,
+        "mean_current": 3.111111111111111,
+        "count": 36,
+        "sum": 112,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 32,
+          "4": 4,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|13:2": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "13:2",
+        "target_mean": 3.05,
+        "mean_current": 3.0555555555555554,
+        "count": 36,
+        "sum": 110,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 34,
+          "4": 2,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|13:7": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "13:7",
+        "target_mean": 3.68,
+        "mean_current": 3.6666666666666665,
+        "count": 36,
+        "sum": 132,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 12,
+          "4": 24,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|13:4": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "13:4",
+        "target_mean": 2.89,
+        "mean_current": 2.888888888888889,
+        "count": 36,
+        "sum": 104,
+        "value_counter": {
+          "1": 0,
+          "2": 4,
+          "3": 32,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|13:3": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "13:3",
+        "target_mean": 3.21,
+        "mean_current": 3.2222222222222223,
+        "count": 36,
+        "sum": 116,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 28,
+          "4": 8,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|13:6": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "13:6",
+        "target_mean": 3.76,
+        "mean_current": 3.75,
+        "count": 36,
+        "sum": 135,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 9,
+          "4": 27,
+          "5": 0
+        }
+      },
+      "nsk|weekend|without_children|13:1": {
+        "segment_key": "nsk|weekend|without_children",
+        "rule_id": "13:1",
+        "target_mean": 3.65,
+        "mean_current": 3.638888888888889,
+        "count": 36,
+        "sum": 131,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 13,
+          "4": 23,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|9:3": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "9:3",
+        "target_mean": 3.4,
+        "mean_current": 3.380952380952381,
+        "count": 21,
+        "sum": 71,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 13,
+          "4": 8,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|9:2": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "9:2",
+        "target_mean": 4.36,
+        "mean_current": 4.380952380952381,
+        "count": 21,
+        "sum": 92,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 13,
+          "5": 8
+        }
+      },
+      "prm|vacation|with_children|9:5": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "9:5",
+        "target_mean": 3.67,
+        "mean_current": 3.6666666666666665,
+        "count": 21,
+        "sum": 77,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 7,
+          "4": 14,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|9:4": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "9:4",
+        "target_mean": 4.2,
+        "mean_current": 4.190476190476191,
+        "count": 21,
+        "sum": 88,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 17,
+          "5": 4
+        }
+      },
+      "prm|vacation|with_children|9:1": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "9:1",
+        "target_mean": 4.18,
+        "mean_current": 4.190476190476191,
+        "count": 21,
+        "sum": 88,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 17,
+          "5": 4
+        }
+      },
+      "prm|vacation|with_children|9:6": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "9:6",
+        "target_mean": 4.4,
+        "mean_current": 4.380952380952381,
+        "count": 21,
+        "sum": 92,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 13,
+          "5": 8
+        }
+      },
+      "prm|vacation|with_children|10:6": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "10:6",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|10:5": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "10:5",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|10:4": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "10:4",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|10:3": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "10:3",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|10:1": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "10:1",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|10:2": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "10:2",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|11:4": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "11:4",
+        "target_mean": 3.57,
+        "mean_current": 3.5806451612903225,
+        "count": 31,
+        "sum": 111,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 13,
+          "4": 18,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|11:3": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "11:3",
+        "target_mean": 3.13,
+        "mean_current": 3.129032258064516,
+        "count": 31,
+        "sum": 97,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 27,
+          "4": 4,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|11:1": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "11:1",
+        "target_mean": 3.4,
+        "mean_current": 3.3870967741935485,
+        "count": 31,
+        "sum": 105,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 19,
+          "4": 12,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|11:2": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "11:2",
+        "target_mean": 3.2,
+        "mean_current": 3.193548387096774,
+        "count": 31,
+        "sum": 99,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 25,
+          "4": 6,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|11:7": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "11:7",
+        "target_mean": 3.93,
+        "mean_current": 3.935483870967742,
+        "count": 31,
+        "sum": 122,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 29,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|11:6": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "11:6",
+        "target_mean": 3.87,
+        "mean_current": 3.870967741935484,
+        "count": 31,
+        "sum": 120,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 27,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|11:5": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "11:5",
+        "target_mean": 3.79,
+        "mean_current": 3.774193548387097,
+        "count": 31,
+        "sum": 117,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 7,
+          "4": 24,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|12:3": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "12:3",
+        "target_mean": 3.33,
+        "mean_current": 3.3225806451612905,
+        "count": 31,
+        "sum": 103,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 21,
+          "4": 10,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|12:6": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "12:6",
+        "target_mean": 3.27,
+        "mean_current": 3.2580645161290325,
+        "count": 31,
+        "sum": 101,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 23,
+          "4": 8,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|12:1": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "12:1",
+        "target_mean": 3.27,
+        "mean_current": 3.2580645161290325,
+        "count": 31,
+        "sum": 101,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 23,
+          "4": 8,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|12:7": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "12:7",
+        "target_mean": 3.67,
+        "mean_current": 3.6774193548387095,
+        "count": 31,
+        "sum": 114,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 10,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|12:2": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "12:2",
+        "target_mean": 3.13,
+        "mean_current": 3.129032258064516,
+        "count": 31,
+        "sum": 97,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 27,
+          "4": 4,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|12:5": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "12:5",
+        "target_mean": 3.67,
+        "mean_current": 3.6774193548387095,
+        "count": 31,
+        "sum": 114,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 10,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|12:4": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "12:4",
+        "target_mean": 3.13,
+        "mean_current": 3.129032258064516,
+        "count": 31,
+        "sum": 97,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 27,
+          "4": 4,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|13:4": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "13:4",
+        "target_mean": 3.14,
+        "mean_current": 3.129032258064516,
+        "count": 31,
+        "sum": 97,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 27,
+          "4": 4,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|13:7": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "13:7",
+        "target_mean": 3.21,
+        "mean_current": 3.225806451612903,
+        "count": 31,
+        "sum": 100,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 24,
+          "4": 7,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|13:2": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "13:2",
+        "target_mean": 2.93,
+        "mean_current": 2.935483870967742,
+        "count": 31,
+        "sum": 91,
+        "value_counter": {
+          "1": 0,
+          "2": 2,
+          "3": 29,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|13:3": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "13:3",
+        "target_mean": 2.93,
+        "mean_current": 2.935483870967742,
+        "count": 31,
+        "sum": 91,
+        "value_counter": {
+          "1": 0,
+          "2": 2,
+          "3": 29,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|13:1": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "13:1",
+        "target_mean": 3.46,
+        "mean_current": 3.4516129032258065,
+        "count": 31,
+        "sum": 107,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 17,
+          "4": 14,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|13:5": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "13:5",
+        "target_mean": 3.29,
+        "mean_current": 3.2903225806451615,
+        "count": 31,
+        "sum": 102,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 22,
+          "4": 9,
+          "5": 0
+        }
+      },
+      "prm|vacation|with_children|13:6": {
+        "segment_key": "prm|vacation|with_children",
+        "rule_id": "13:6",
+        "target_mean": 3.57,
+        "mean_current": 3.5806451612903225,
+        "count": 31,
+        "sum": 111,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 13,
+          "4": 18,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|9:4": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "9:4",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 21,
+        "sum": 84,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|9:5": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "9:5",
+        "target_mean": 3.95,
+        "mean_current": 3.9523809523809526,
+        "count": 21,
+        "sum": 83,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 20,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|9:2": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "9:2",
+        "target_mean": 4.15,
+        "mean_current": 4.142857142857143,
+        "count": 21,
+        "sum": 87,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 18,
+          "5": 3
+        }
+      },
+      "prm|vacation|without_children|9:1": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "9:1",
+        "target_mean": 4.47,
+        "mean_current": 4.476190476190476,
+        "count": 21,
+        "sum": 94,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 11,
+          "5": 10
+        }
+      },
+      "prm|vacation|without_children|9:3": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "9:3",
+        "target_mean": 3.5,
+        "mean_current": 3.5238095238095237,
+        "count": 21,
+        "sum": 74,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 10,
+          "4": 11,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|9:6": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "9:6",
+        "target_mean": 4.26,
+        "mean_current": 4.238095238095238,
+        "count": 21,
+        "sum": 89,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 16,
+          "5": 5
+        }
+      },
+      "prm|vacation|without_children|10:4": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "10:4",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|10:6": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "10:6",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|10:3": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "10:3",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|10:2": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "10:2",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|10:5": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "10:5",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|10:1": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "10:1",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 21,
+        "sum": 21,
+        "value_counter": {
+          "1": 21,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|11:3": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "11:3",
+        "target_mean": 3.95,
+        "mean_current": 3.9565217391304346,
+        "count": 23,
+        "sum": 91,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 22,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|11:4": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "11:4",
+        "target_mean": 3.57,
+        "mean_current": 3.5652173913043477,
+        "count": 23,
+        "sum": 82,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 10,
+          "4": 13,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|11:2": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "11:2",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 23,
+        "sum": 92,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 23,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|11:5": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "11:5",
+        "target_mean": 3.95,
+        "mean_current": 3.9565217391304346,
+        "count": 23,
+        "sum": 91,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 22,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|11:7": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "11:7",
+        "target_mean": 3.7,
+        "mean_current": 3.6956521739130435,
+        "count": 23,
+        "sum": 85,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 7,
+          "4": 16,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|11:1": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "11:1",
+        "target_mean": 4.45,
+        "mean_current": 4.434782608695652,
+        "count": 23,
+        "sum": 102,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 13,
+          "5": 10
+        }
+      },
+      "prm|vacation|without_children|11:6": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "11:6",
+        "target_mean": 3.73,
+        "mean_current": 3.739130434782609,
+        "count": 23,
+        "sum": 86,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 6,
+          "4": 17,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|12:3": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "12:3",
+        "target_mean": 2.87,
+        "mean_current": 2.869565217391304,
+        "count": 23,
+        "sum": 66,
+        "value_counter": {
+          "1": 0,
+          "2": 3,
+          "3": 20,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|12:1": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "12:1",
+        "target_mean": 3.59,
+        "mean_current": 3.608695652173913,
+        "count": 23,
+        "sum": 83,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 9,
+          "4": 14,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|12:6": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "12:6",
+        "target_mean": 3.27,
+        "mean_current": 3.260869565217391,
+        "count": 23,
+        "sum": 75,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 17,
+          "4": 6,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|12:4": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "12:4",
+        "target_mean": 3,
+        "mean_current": 3,
+        "count": 23,
+        "sum": 69,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 23,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|12:7": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "12:7",
+        "target_mean": 3.48,
+        "mean_current": 3.4782608695652173,
+        "count": 23,
+        "sum": 80,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 12,
+          "4": 11,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|12:2": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "12:2",
+        "target_mean": 3.13,
+        "mean_current": 3.130434782608696,
+        "count": 23,
+        "sum": 72,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 20,
+          "4": 3,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|12:5": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "12:5",
+        "target_mean": 3.43,
+        "mean_current": 3.4347826086956523,
+        "count": 23,
+        "sum": 79,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 13,
+          "4": 10,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|13:7": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "13:7",
+        "target_mean": 3.48,
+        "mean_current": 3.4782608695652173,
+        "count": 23,
+        "sum": 80,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 12,
+          "4": 11,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|13:4": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "13:4",
+        "target_mean": 2.91,
+        "mean_current": 2.9130434782608696,
+        "count": 23,
+        "sum": 67,
+        "value_counter": {
+          "1": 0,
+          "2": 2,
+          "3": 21,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|13:2": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "13:2",
+        "target_mean": 2.7,
+        "mean_current": 2.6956521739130435,
+        "count": 23,
+        "sum": 62,
+        "value_counter": {
+          "1": 0,
+          "2": 7,
+          "3": 16,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|13:6": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "13:6",
+        "target_mean": 3.22,
+        "mean_current": 3.217391304347826,
+        "count": 23,
+        "sum": 74,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 18,
+          "4": 5,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|13:1": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "13:1",
+        "target_mean": 3.64,
+        "mean_current": 3.652173913043478,
+        "count": 23,
+        "sum": 84,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 15,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|13:5": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "13:5",
+        "target_mean": 2.77,
+        "mean_current": 2.782608695652174,
+        "count": 23,
+        "sum": 64,
+        "value_counter": {
+          "1": 0,
+          "2": 5,
+          "3": 18,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|vacation|without_children|13:3": {
+        "segment_key": "prm|vacation|without_children",
+        "rule_id": "13:3",
+        "target_mean": 3.35,
+        "mean_current": 3.347826086956522,
+        "count": 23,
+        "sum": 77,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 15,
+          "4": 8,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|9:3": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "9:3",
+        "target_mean": 3.64,
+        "mean_current": 3.619047619047619,
+        "count": 21,
+        "sum": 76,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 13,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|9:6": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "9:6",
+        "target_mean": 4.27,
+        "mean_current": 4.285714285714286,
+        "count": 21,
+        "sum": 90,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 15,
+          "5": 6
+        }
+      },
+      "ufa|vacation|without_children|9:1": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "9:1",
+        "target_mean": 4.5,
+        "mean_current": 4.523809523809524,
+        "count": 21,
+        "sum": 95,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 10,
+          "5": 11
+        }
+      },
+      "ufa|vacation|without_children|9:4": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "9:4",
+        "target_mean": 4.5,
+        "mean_current": 4.523809523809524,
+        "count": 21,
+        "sum": 95,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 10,
+          "5": 11
+        }
+      },
+      "ufa|vacation|without_children|9:5": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "9:5",
+        "target_mean": 3.9,
+        "mean_current": 3.9047619047619047,
+        "count": 21,
+        "sum": 82,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 19,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|9:2": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "9:2",
+        "target_mean": 4.3,
+        "mean_current": 4.285714285714286,
+        "count": 21,
+        "sum": 90,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 15,
+          "5": 6
+        }
+      },
+      "ufa|vacation|without_children|10:4": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "10:4",
+        "target_mean": 3.44,
+        "mean_current": 3.4285714285714284,
+        "count": 21,
+        "sum": 72,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 12,
+          "4": 9,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|10:1": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "10:1",
+        "target_mean": 3.8,
+        "mean_current": 3.8095238095238093,
+        "count": 21,
+        "sum": 80,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 17,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|10:2": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "10:2",
+        "target_mean": 3.6,
+        "mean_current": 3.619047619047619,
+        "count": 21,
+        "sum": 76,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 13,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|10:3": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "10:3",
+        "target_mean": 4.3,
+        "mean_current": 4.285714285714286,
+        "count": 21,
+        "sum": 90,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 15,
+          "5": 6
+        }
+      },
+      "ufa|vacation|without_children|10:5": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "10:5",
+        "target_mean": 4.33,
+        "mean_current": 4.333333333333333,
+        "count": 21,
+        "sum": 91,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 14,
+          "5": 7
+        }
+      },
+      "ufa|vacation|without_children|10:6": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "10:6",
+        "target_mean": 4.6,
+        "mean_current": 4.619047619047619,
+        "count": 21,
+        "sum": 97,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 8,
+          "5": 13
+        }
+      },
+      "ufa|vacation|without_children|11:4": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "11:4",
+        "target_mean": 3.92,
+        "mean_current": 3.909090909090909,
+        "count": 33,
+        "sum": 129,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 3,
+          "4": 30,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|11:7": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "11:7",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 33,
+        "sum": 132,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 33,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|11:3": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "11:3",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 33,
+        "sum": 132,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 33,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|11:6": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "11:6",
+        "target_mean": 3.92,
+        "mean_current": 3.909090909090909,
+        "count": 33,
+        "sum": 129,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 3,
+          "4": 30,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|11:1": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "11:1",
+        "target_mean": 4.58,
+        "mean_current": 4.575757575757576,
+        "count": 33,
+        "sum": 151,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 14,
+          "5": 19
+        }
+      },
+      "ufa|vacation|without_children|11:5": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "11:5",
+        "target_mean": 4.25,
+        "mean_current": 4.242424242424242,
+        "count": 33,
+        "sum": 140,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 25,
+          "5": 8
+        }
+      },
+      "ufa|vacation|without_children|11:2": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "11:2",
+        "target_mean": 4.17,
+        "mean_current": 4.181818181818182,
+        "count": 33,
+        "sum": 138,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 27,
+          "5": 6
+        }
+      },
+      "ufa|vacation|without_children|12:3": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "12:3",
+        "target_mean": 3,
+        "mean_current": 3,
+        "count": 33,
+        "sum": 99,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 33,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|12:7": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "12:7",
+        "target_mean": 3.77,
+        "mean_current": 3.757575757575758,
+        "count": 33,
+        "sum": 124,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 25,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|12:1": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "12:1",
+        "target_mean": 3.46,
+        "mean_current": 3.4545454545454546,
+        "count": 33,
+        "sum": 114,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 18,
+          "4": 15,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|12:4": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "12:4",
+        "target_mean": 3.15,
+        "mean_current": 3.1515151515151514,
+        "count": 33,
+        "sum": 104,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 28,
+          "4": 5,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|12:2": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "12:2",
+        "target_mean": 3.23,
+        "mean_current": 3.242424242424242,
+        "count": 33,
+        "sum": 107,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 25,
+          "4": 8,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|12:5": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "12:5",
+        "target_mean": 4.15,
+        "mean_current": 4.151515151515151,
+        "count": 33,
+        "sum": 137,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 28,
+          "5": 5
+        }
+      },
+      "ufa|vacation|without_children|12:6": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "12:6",
+        "target_mean": 3.77,
+        "mean_current": 3.757575757575758,
+        "count": 33,
+        "sum": 124,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 25,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|13:3": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "13:3",
+        "target_mean": 3.54,
+        "mean_current": 3.5454545454545454,
+        "count": 33,
+        "sum": 117,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 15,
+          "4": 18,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|13:2": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "13:2",
+        "target_mean": 2.46,
+        "mean_current": 2.4545454545454546,
+        "count": 33,
+        "sum": 81,
+        "value_counter": {
+          "1": 0,
+          "2": 18,
+          "3": 15,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|13:5": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "13:5",
+        "target_mean": 2.92,
+        "mean_current": 2.909090909090909,
+        "count": 33,
+        "sum": 96,
+        "value_counter": {
+          "1": 0,
+          "2": 3,
+          "3": 30,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|13:7": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "13:7",
+        "target_mean": 3,
+        "mean_current": 3,
+        "count": 33,
+        "sum": 99,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 33,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|13:4": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "13:4",
+        "target_mean": 2.62,
+        "mean_current": 2.606060606060606,
+        "count": 33,
+        "sum": 86,
+        "value_counter": {
+          "1": 0,
+          "2": 13,
+          "3": 20,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|13:1": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "13:1",
+        "target_mean": 3.62,
+        "mean_current": 3.606060606060606,
+        "count": 33,
+        "sum": 119,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 13,
+          "4": 20,
+          "5": 0
+        }
+      },
+      "ufa|vacation|without_children|13:6": {
+        "segment_key": "ufa|vacation|without_children",
+        "rule_id": "13:6",
+        "target_mean": 3.42,
+        "mean_current": 3.4242424242424243,
+        "count": 33,
+        "sum": 113,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 19,
+          "4": 14,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|9:1": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "9:1",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 20,
+        "sum": 80,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 20,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|9:4": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "9:4",
+        "target_mean": 4.63,
+        "mean_current": 4.65,
+        "count": 20,
+        "sum": 93,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 7,
+          "5": 13
+        }
+      },
+      "prm|weekend|with_children|9:6": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "9:6",
+        "target_mean": 4.56,
+        "mean_current": 4.55,
+        "count": 20,
+        "sum": 91,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 9,
+          "5": 11
+        }
+      },
+      "prm|weekend|with_children|9:2": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "9:2",
+        "target_mean": 4.22,
+        "mean_current": 4.2,
+        "count": 20,
+        "sum": 84,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 16,
+          "5": 4
+        }
+      },
+      "prm|weekend|with_children|9:5": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "9:5",
+        "target_mean": 3.67,
+        "mean_current": 3.65,
+        "count": 20,
+        "sum": 73,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 7,
+          "4": 13,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|9:3": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "9:3",
+        "target_mean": 3.67,
+        "mean_current": 3.65,
+        "count": 20,
+        "sum": 73,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 7,
+          "4": 13,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|10:3": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "10:3",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 20,
+        "sum": 20,
+        "value_counter": {
+          "1": 20,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|10:5": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "10:5",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 20,
+        "sum": 20,
+        "value_counter": {
+          "1": 20,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|10:4": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "10:4",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 20,
+        "sum": 20,
+        "value_counter": {
+          "1": 20,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|10:2": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "10:2",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 20,
+        "sum": 20,
+        "value_counter": {
+          "1": 20,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|10:6": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "10:6",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 20,
+        "sum": 20,
+        "value_counter": {
+          "1": 20,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|10:1": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "10:1",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 20,
+        "sum": 20,
+        "value_counter": {
+          "1": 20,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|11:6": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "11:6",
+        "target_mean": 3.93,
+        "mean_current": 3.935483870967742,
+        "count": 31,
+        "sum": 122,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 29,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|11:7": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "11:7",
+        "target_mean": 3.21,
+        "mean_current": 3.225806451612903,
+        "count": 31,
+        "sum": 100,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 24,
+          "4": 7,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|11:5": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "11:5",
+        "target_mean": 4.29,
+        "mean_current": 4.290322580645161,
+        "count": 31,
+        "sum": 133,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 22,
+          "5": 9
+        }
+      },
+      "prm|weekend|with_children|11:1": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "11:1",
+        "target_mean": 4.21,
+        "mean_current": 4.225806451612903,
+        "count": 31,
+        "sum": 131,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 24,
+          "5": 7
+        }
+      },
+      "prm|weekend|with_children|11:3": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "11:3",
+        "target_mean": 3.47,
+        "mean_current": 3.4838709677419355,
+        "count": 31,
+        "sum": 108,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 16,
+          "4": 15,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|11:4": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "11:4",
+        "target_mean": 3.67,
+        "mean_current": 3.6774193548387095,
+        "count": 31,
+        "sum": 114,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 10,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|11:2": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "11:2",
+        "target_mean": 3.73,
+        "mean_current": 3.7419354838709675,
+        "count": 31,
+        "sum": 116,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 23,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|12:1": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "12:1",
+        "target_mean": 3.53,
+        "mean_current": 3.5161290322580645,
+        "count": 31,
+        "sum": 109,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 15,
+          "4": 16,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|12:2": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "12:2",
+        "target_mean": 3.6,
+        "mean_current": 3.6129032258064515,
+        "count": 31,
+        "sum": 112,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 12,
+          "4": 19,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|12:6": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "12:6",
+        "target_mean": 3.6,
+        "mean_current": 3.6129032258064515,
+        "count": 31,
+        "sum": 112,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 12,
+          "4": 19,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|12:4": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "12:4",
+        "target_mean": 3.2,
+        "mean_current": 3.193548387096774,
+        "count": 31,
+        "sum": 99,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 25,
+          "4": 6,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|12:3": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "12:3",
+        "target_mean": 3.79,
+        "mean_current": 3.774193548387097,
+        "count": 31,
+        "sum": 117,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 7,
+          "4": 24,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|12:5": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "12:5",
+        "target_mean": 3.73,
+        "mean_current": 3.7419354838709675,
+        "count": 31,
+        "sum": 116,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 23,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|12:7": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "12:7",
+        "target_mean": 4.07,
+        "mean_current": 4.064516129032258,
+        "count": 31,
+        "sum": 126,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 29,
+          "5": 2
+        }
+      },
+      "prm|weekend|with_children|13:7": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "13:7",
+        "target_mean": 3.8,
+        "mean_current": 3.806451612903226,
+        "count": 31,
+        "sum": 118,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 6,
+          "4": 25,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|13:2": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "13:2",
+        "target_mean": 2.93,
+        "mean_current": 2.935483870967742,
+        "count": 31,
+        "sum": 91,
+        "value_counter": {
+          "1": 0,
+          "2": 2,
+          "3": 29,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|13:1": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "13:1",
+        "target_mean": 4.2,
+        "mean_current": 4.193548387096774,
+        "count": 31,
+        "sum": 130,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 25,
+          "5": 6
+        }
+      },
+      "prm|weekend|with_children|13:4": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "13:4",
+        "target_mean": 3,
+        "mean_current": 3,
+        "count": 31,
+        "sum": 93,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 31,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|13:3": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "13:3",
+        "target_mean": 3.07,
+        "mean_current": 3.064516129032258,
+        "count": 31,
+        "sum": 95,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 29,
+          "4": 2,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|13:5": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "13:5",
+        "target_mean": 3.27,
+        "mean_current": 3.2580645161290325,
+        "count": 31,
+        "sum": 101,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 23,
+          "4": 8,
+          "5": 0
+        }
+      },
+      "prm|weekend|with_children|13:6": {
+        "segment_key": "prm|weekend|with_children",
+        "rule_id": "13:6",
+        "target_mean": 3.87,
+        "mean_current": 3.870967741935484,
+        "count": 31,
+        "sum": 120,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 27,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|9:5": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "9:5",
+        "target_mean": 3.68,
+        "mean_current": 3.7,
+        "count": 20,
+        "sum": 74,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 6,
+          "4": 14,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|9:1": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "9:1",
+        "target_mean": 4.25,
+        "mean_current": 4.25,
+        "count": 20,
+        "sum": 85,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 15,
+          "5": 5
+        }
+      },
+      "prm|weekend|without_children|9:3": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "9:3",
+        "target_mean": 3.79,
+        "mean_current": 3.8,
+        "count": 20,
+        "sum": 76,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 16,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|9:2": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "9:2",
+        "target_mean": 4.11,
+        "mean_current": 4.1,
+        "count": 20,
+        "sum": 82,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 18,
+          "5": 2
+        }
+      },
+      "prm|weekend|without_children|9:4": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "9:4",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 20,
+        "sum": 80,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 20,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|9:6": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "9:6",
+        "target_mean": 4.37,
+        "mean_current": 4.35,
+        "count": 20,
+        "sum": 87,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 13,
+          "5": 7
+        }
+      },
+      "prm|weekend|without_children|10:2": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "10:2",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 20,
+        "sum": 20,
+        "value_counter": {
+          "1": 20,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|10:6": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "10:6",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 20,
+        "sum": 20,
+        "value_counter": {
+          "1": 20,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|10:1": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "10:1",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 20,
+        "sum": 20,
+        "value_counter": {
+          "1": 20,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|10:3": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "10:3",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 20,
+        "sum": 20,
+        "value_counter": {
+          "1": 20,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|10:4": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "10:4",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 20,
+        "sum": 20,
+        "value_counter": {
+          "1": 20,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|10:5": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "10:5",
+        "target_mean": 1,
+        "mean_current": 1,
+        "count": 20,
+        "sum": 20,
+        "value_counter": {
+          "1": 20,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|11:7": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "11:7",
+        "target_mean": 4.03,
+        "mean_current": 4.05,
+        "count": 20,
+        "sum": 81,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 19,
+          "5": 1
+        }
+      },
+      "prm|weekend|without_children|11:5": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "11:5",
+        "target_mean": 3.97,
+        "mean_current": 3.95,
+        "count": 20,
+        "sum": 79,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 19,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|11:6": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "11:6",
+        "target_mean": 3.71,
+        "mean_current": 3.7,
+        "count": 20,
+        "sum": 74,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 6,
+          "4": 14,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|11:4": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "11:4",
+        "target_mean": 3.75,
+        "mean_current": 3.75,
+        "count": 20,
+        "sum": 75,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 5,
+          "4": 15,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|11:2": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "11:2",
+        "target_mean": 3.88,
+        "mean_current": 3.9,
+        "count": 20,
+        "sum": 78,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 18,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|11:3": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "11:3",
+        "target_mean": 3.81,
+        "mean_current": 3.8,
+        "count": 20,
+        "sum": 76,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 16,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|11:1": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "11:1",
+        "target_mean": 3.94,
+        "mean_current": 3.95,
+        "count": 20,
+        "sum": 79,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 19,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|12:3": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "12:3",
+        "target_mean": 2.9,
+        "mean_current": 2.9,
+        "count": 20,
+        "sum": 58,
+        "value_counter": {
+          "1": 0,
+          "2": 2,
+          "3": 18,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|12:6": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "12:6",
+        "target_mean": 3.44,
+        "mean_current": 3.45,
+        "count": 20,
+        "sum": 69,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 11,
+          "4": 9,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|12:2": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "12:2",
+        "target_mean": 3,
+        "mean_current": 3,
+        "count": 20,
+        "sum": 60,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 20,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|12:7": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "12:7",
+        "target_mean": 3.8,
+        "mean_current": 3.8,
+        "count": 20,
+        "sum": 76,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 16,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|12:1": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "12:1",
+        "target_mean": 3.41,
+        "mean_current": 3.4,
+        "count": 20,
+        "sum": 68,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 12,
+          "4": 8,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|12:5": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "12:5",
+        "target_mean": 3.58,
+        "mean_current": 3.6,
+        "count": 20,
+        "sum": 72,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 12,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|12:4": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "12:4",
+        "target_mean": 3,
+        "mean_current": 3,
+        "count": 20,
+        "sum": 60,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 20,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|13:1": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "13:1",
+        "target_mean": 3.9,
+        "mean_current": 3.9,
+        "count": 20,
+        "sum": 78,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 18,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|13:2": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "13:2",
+        "target_mean": 2.88,
+        "mean_current": 2.9,
+        "count": 20,
+        "sum": 58,
+        "value_counter": {
+          "1": 0,
+          "2": 2,
+          "3": 18,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|13:5": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "13:5",
+        "target_mean": 2.9,
+        "mean_current": 2.9,
+        "count": 20,
+        "sum": 58,
+        "value_counter": {
+          "1": 0,
+          "2": 2,
+          "3": 18,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|13:7": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "13:7",
+        "target_mean": 3.77,
+        "mean_current": 3.75,
+        "count": 20,
+        "sum": 75,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 5,
+          "4": 15,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|13:3": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "13:3",
+        "target_mean": 3.19,
+        "mean_current": 3.2,
+        "count": 20,
+        "sum": 64,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 16,
+          "4": 4,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|13:4": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "13:4",
+        "target_mean": 2.8,
+        "mean_current": 2.8,
+        "count": 20,
+        "sum": 56,
+        "value_counter": {
+          "1": 0,
+          "2": 4,
+          "3": 16,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "prm|weekend|without_children|13:6": {
+        "segment_key": "prm|weekend|without_children",
+        "rule_id": "13:6",
+        "target_mean": 3.63,
+        "mean_current": 3.65,
+        "count": 20,
+        "sum": 73,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 7,
+          "4": 13,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|9:5": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "9:5",
+        "target_mean": 4.15,
+        "mean_current": 4.15,
+        "count": 20,
+        "sum": 83,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 17,
+          "5": 3
+        }
+      },
+      "ufa|weekend|without_children|9:2": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "9:2",
+        "target_mean": 4.31,
+        "mean_current": 4.3,
+        "count": 20,
+        "sum": 86,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 14,
+          "5": 6
+        }
+      },
+      "ufa|weekend|without_children|9:4": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "9:4",
+        "target_mean": 4.69,
+        "mean_current": 4.7,
+        "count": 20,
+        "sum": 94,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 6,
+          "5": 14
+        }
+      },
+      "ufa|weekend|without_children|9:6": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "9:6",
+        "target_mean": 4.42,
+        "mean_current": 4.4,
+        "count": 20,
+        "sum": 88,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 12,
+          "5": 8
+        }
+      },
+      "ufa|weekend|without_children|9:1": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "9:1",
+        "target_mean": 4.25,
+        "mean_current": 4.25,
+        "count": 20,
+        "sum": 85,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 15,
+          "5": 5
+        }
+      },
+      "ufa|weekend|without_children|9:3": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "9:3",
+        "target_mean": 3.77,
+        "mean_current": 3.75,
+        "count": 20,
+        "sum": 75,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 5,
+          "4": 15,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|10:1": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "10:1",
+        "target_mean": 3.69,
+        "mean_current": 3.7,
+        "count": 20,
+        "sum": 74,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 6,
+          "4": 14,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|10:3": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "10:3",
+        "target_mean": 4.46,
+        "mean_current": 4.45,
+        "count": 20,
+        "sum": 89,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 11,
+          "5": 9
+        }
+      },
+      "ufa|weekend|without_children|10:2": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "10:2",
+        "target_mean": 4.23,
+        "mean_current": 4.25,
+        "count": 20,
+        "sum": 85,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 15,
+          "5": 5
+        }
+      },
+      "ufa|weekend|without_children|10:6": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "10:6",
+        "target_mean": 4.54,
+        "mean_current": 4.55,
+        "count": 20,
+        "sum": 91,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 9,
+          "5": 11
+        }
+      },
+      "ufa|weekend|without_children|10:4": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "10:4",
+        "target_mean": 4.08,
+        "mean_current": 4.1,
+        "count": 20,
+        "sum": 82,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 18,
+          "5": 2
+        }
+      },
+      "ufa|weekend|without_children|10:5": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "10:5",
+        "target_mean": 4.69,
+        "mean_current": 4.7,
+        "count": 20,
+        "sum": 94,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 6,
+          "5": 14
+        }
+      },
+      "ufa|weekend|without_children|11:3": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "11:3",
+        "target_mean": 3.8,
+        "mean_current": 3.8076923076923075,
+        "count": 26,
+        "sum": 99,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 5,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|11:4": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "11:4",
+        "target_mean": 3.65,
+        "mean_current": 3.6538461538461537,
+        "count": 26,
+        "sum": 95,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 9,
+          "4": 17,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|11:2": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "11:2",
+        "target_mean": 4.15,
+        "mean_current": 4.153846153846154,
+        "count": 26,
+        "sum": 108,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 22,
+          "5": 4
+        }
+      },
+      "ufa|weekend|without_children|11:5": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "11:5",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 26,
+        "sum": 104,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 26,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|11:6": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "11:6",
+        "target_mean": 3.65,
+        "mean_current": 3.6538461538461537,
+        "count": 26,
+        "sum": 95,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 9,
+          "4": 17,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|11:1": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "11:1",
+        "target_mean": 4.05,
+        "mean_current": 4.038461538461538,
+        "count": 26,
+        "sum": 105,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 25,
+          "5": 1
+        }
+      },
+      "ufa|weekend|without_children|11:7": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "11:7",
+        "target_mean": 3.7,
+        "mean_current": 3.6923076923076925,
+        "count": 26,
+        "sum": 96,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 18,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|12:7": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "12:7",
+        "target_mean": 4.25,
+        "mean_current": 4.269230769230769,
+        "count": 26,
+        "sum": 111,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 19,
+          "5": 7
+        }
+      },
+      "ufa|weekend|without_children|12:1": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "12:1",
+        "target_mean": 4,
+        "mean_current": 4,
+        "count": 26,
+        "sum": 104,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 26,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|12:6": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "12:6",
+        "target_mean": 3.65,
+        "mean_current": 3.6538461538461537,
+        "count": 26,
+        "sum": 95,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 9,
+          "4": 17,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|12:2": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "12:2",
+        "target_mean": 3.7,
+        "mean_current": 3.6923076923076925,
+        "count": 26,
+        "sum": 96,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 18,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|12:5": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "12:5",
+        "target_mean": 3.75,
+        "mean_current": 3.769230769230769,
+        "count": 26,
+        "sum": 98,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 6,
+          "4": 20,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|12:4": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "12:4",
+        "target_mean": 3.45,
+        "mean_current": 3.4615384615384617,
+        "count": 26,
+        "sum": 90,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 14,
+          "4": 12,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|12:3": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "12:3",
+        "target_mean": 3.35,
+        "mean_current": 3.3461538461538463,
+        "count": 26,
+        "sum": 87,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 17,
+          "4": 9,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|13:5": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "13:5",
+        "target_mean": 3.4,
+        "mean_current": 3.3846153846153846,
+        "count": 26,
+        "sum": 88,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 16,
+          "4": 10,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|13:7": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "13:7",
+        "target_mean": 3.8,
+        "mean_current": 3.8076923076923075,
+        "count": 26,
+        "sum": 99,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 5,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|13:2": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "13:2",
+        "target_mean": 3.15,
+        "mean_current": 3.1538461538461537,
+        "count": 26,
+        "sum": 82,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 22,
+          "4": 4,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|13:4": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "13:4",
+        "target_mean": 3,
+        "mean_current": 3,
+        "count": 26,
+        "sum": 78,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 26,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|13:3": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "13:3",
+        "target_mean": 3.75,
+        "mean_current": 3.769230769230769,
+        "count": 26,
+        "sum": 98,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 6,
+          "4": 20,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|13:1": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "13:1",
+        "target_mean": 3.95,
+        "mean_current": 3.9615384615384617,
+        "count": 26,
+        "sum": 103,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 25,
+          "5": 0
+        }
+      },
+      "ufa|weekend|without_children|13:6": {
+        "segment_key": "ufa|weekend|without_children",
+        "rule_id": "13:6",
+        "target_mean": 3.85,
+        "mean_current": 3.8461538461538463,
+        "count": 26,
+        "sum": 100,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 4,
+          "4": 22,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|9:5": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "9:5",
+        "target_mean": 4.08,
+        "mean_current": 4.105263157894737,
+        "count": 19,
+        "sum": 78,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 17,
+          "5": 2
+        }
+      },
+      "ufa|vacation|with_children|9:6": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "9:6",
+        "target_mean": 4.5,
+        "mean_current": 4.526315789473684,
+        "count": 19,
+        "sum": 86,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 9,
+          "5": 10
+        }
+      },
+      "ufa|vacation|with_children|9:4": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "9:4",
+        "target_mean": 4.58,
+        "mean_current": 4.578947368421052,
+        "count": 19,
+        "sum": 87,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 8,
+          "5": 11
+        }
+      },
+      "ufa|vacation|with_children|9:3": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "9:3",
+        "target_mean": 3.58,
+        "mean_current": 3.5789473684210527,
+        "count": 19,
+        "sum": 68,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 11,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|9:1": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "9:1",
+        "target_mean": 4.5,
+        "mean_current": 4.526315789473684,
+        "count": 19,
+        "sum": 86,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 9,
+          "5": 10
+        }
+      },
+      "ufa|vacation|with_children|9:2": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "9:2",
+        "target_mean": 4.55,
+        "mean_current": 4.526315789473684,
+        "count": 19,
+        "sum": 86,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 9,
+          "5": 10
+        }
+      },
+      "ufa|vacation|with_children|10:4": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "10:4",
+        "target_mean": 4.44,
+        "mean_current": 4.421052631578948,
+        "count": 19,
+        "sum": 84,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 11,
+          "5": 8
+        }
+      },
+      "ufa|vacation|with_children|10:1": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "10:1",
+        "target_mean": 4.36,
+        "mean_current": 4.368421052631579,
+        "count": 19,
+        "sum": 83,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 12,
+          "5": 7
+        }
+      },
+      "ufa|vacation|with_children|10:5": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "10:5",
+        "target_mean": 4.5,
+        "mean_current": 4.526315789473684,
+        "count": 19,
+        "sum": 86,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 9,
+          "5": 10
+        }
+      },
+      "ufa|vacation|with_children|10:6": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "10:6",
+        "target_mean": 4.58,
+        "mean_current": 4.578947368421052,
+        "count": 19,
+        "sum": 87,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 8,
+          "5": 11
+        }
+      },
+      "ufa|vacation|with_children|10:3": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "10:3",
+        "target_mean": 4.58,
+        "mean_current": 4.578947368421052,
+        "count": 19,
+        "sum": 87,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 8,
+          "5": 11
+        }
+      },
+      "ufa|vacation|with_children|10:2": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "10:2",
+        "target_mean": 4.3,
+        "mean_current": 4.315789473684211,
+        "count": 19,
+        "sum": 82,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 13,
+          "5": 6
+        }
+      },
+      "ufa|vacation|with_children|11:5": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "11:5",
+        "target_mean": 3.53,
+        "mean_current": 3.5357142857142856,
+        "count": 28,
+        "sum": 99,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 13,
+          "4": 15,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|11:2": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "11:2",
+        "target_mean": 3.88,
+        "mean_current": 3.892857142857143,
+        "count": 28,
+        "sum": 109,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 3,
+          "4": 25,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|11:4": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "11:4",
+        "target_mean": 3.71,
+        "mean_current": 3.7142857142857144,
+        "count": 28,
+        "sum": 104,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 20,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|11:6": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "11:6",
+        "target_mean": 3.71,
+        "mean_current": 3.7142857142857144,
+        "count": 28,
+        "sum": 104,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 8,
+          "4": 20,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|11:1": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "11:1",
+        "target_mean": 3.82,
+        "mean_current": 3.8214285714285716,
+        "count": 28,
+        "sum": 107,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 5,
+          "4": 23,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|11:7": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "11:7",
+        "target_mean": 3.59,
+        "mean_current": 3.607142857142857,
+        "count": 28,
+        "sum": 101,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 11,
+          "4": 17,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|11:3": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "11:3",
+        "target_mean": 3.59,
+        "mean_current": 3.607142857142857,
+        "count": 28,
+        "sum": 101,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 11,
+          "4": 17,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|12:3": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "12:3",
+        "target_mean": 3.82,
+        "mean_current": 3.8214285714285716,
+        "count": 28,
+        "sum": 107,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 5,
+          "4": 23,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|12:1": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "12:1",
+        "target_mean": 3.65,
+        "mean_current": 3.642857142857143,
+        "count": 28,
+        "sum": 102,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 10,
+          "4": 18,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|12:5": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "12:5",
+        "target_mean": 3.53,
+        "mean_current": 3.5357142857142856,
+        "count": 28,
+        "sum": 99,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 13,
+          "4": 15,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|12:2": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "12:2",
+        "target_mean": 3.41,
+        "mean_current": 3.392857142857143,
+        "count": 28,
+        "sum": 95,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 17,
+          "4": 11,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|12:6": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "12:6",
+        "target_mean": 3.76,
+        "mean_current": 3.75,
+        "count": 28,
+        "sum": 105,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 7,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|12:7": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "12:7",
+        "target_mean": 3.76,
+        "mean_current": 3.75,
+        "count": 28,
+        "sum": 105,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 7,
+          "4": 21,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|12:4": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "12:4",
+        "target_mean": 3.35,
+        "mean_current": 3.357142857142857,
+        "count": 28,
+        "sum": 94,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 18,
+          "4": 10,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|13:3": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "13:3",
+        "target_mean": 2.94,
+        "mean_current": 2.9285714285714284,
+        "count": 28,
+        "sum": 82,
+        "value_counter": {
+          "1": 0,
+          "2": 2,
+          "3": 26,
+          "4": 0,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|13:4": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "13:4",
+        "target_mean": 3.24,
+        "mean_current": 3.25,
+        "count": 28,
+        "sum": 91,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 21,
+          "4": 7,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|13:1": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "13:1",
+        "target_mean": 3.53,
+        "mean_current": 3.5357142857142856,
+        "count": 28,
+        "sum": 99,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 13,
+          "4": 15,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|13:2": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "13:2",
+        "target_mean": 3.13,
+        "mean_current": 3.142857142857143,
+        "count": 28,
+        "sum": 88,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 24,
+          "4": 4,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|13:7": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "13:7",
+        "target_mean": 3.65,
+        "mean_current": 3.642857142857143,
+        "count": 28,
+        "sum": 102,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 10,
+          "4": 18,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|13:5": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "13:5",
+        "target_mean": 3.59,
+        "mean_current": 3.607142857142857,
+        "count": 28,
+        "sum": 101,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 11,
+          "4": 17,
+          "5": 0
+        }
+      },
+      "ufa|vacation|with_children|13:6": {
+        "segment_key": "ufa|vacation|with_children",
+        "rule_id": "13:6",
+        "target_mean": 3.5,
+        "mean_current": 3.5,
+        "count": 28,
+        "sum": 98,
+        "value_counter": {
+          "1": 0,
+          "2": 0,
+          "3": 14,
+          "4": 14,
+          "5": 0
+        }
+      }
+    },
+    "likert_table_rows_answered_total": 0,
+    "likert_table_rows_unmapped_total": 0,
+    "likert_no_target_fallback_count": 0,
+    "schema_discovery": {
+      "source": "localStorage_error",
+      "storage_key": "pythia10-9qE9TNC8HbhbeDUjDjwm79",
+      "pages_count": null,
+      "questions_count": null,
+      "question_type_histogram": {}
+    }
+  },
+  "attempts": [],
+  "successful_runs": []
+}

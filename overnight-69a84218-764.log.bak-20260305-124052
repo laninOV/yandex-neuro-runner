@@ -1,0 +1,6 @@
+attempt=1 submit_click_total=1 cell=ufa|weekend|with_children|yp
+attempt=1 status=submit_unconfirmed success=0/764 remaining=764 submit_clicks=1 unconfirmed_clicks=1 cell=ufa|weekend|with_children|yp page=3 engine=legacy groups_found=2 groups_selected=0 table_rows=0/0 table_unresolved=0 validation_errors=0
+attempt=2 status=start_page_invalid success=0/764 remaining=764 submit_clicks=1 unconfirmed_clicks=1 cell=ufa|weekend|with_children|yp page=- engine=- groups_found=0 groups_selected=0 table_rows=0/0 table_unresolved=0 validation_errors=0
+attempt=3 submit_click_total=2 cell=ufa|weekend|with_children|yp
+attempt=3 status=success success=1/764 remaining=763 submit_clicks=2 unconfirmed_clicks=1 cell=ufa|weekend|with_children|yp page=11 engine=legacy groups_found=2 groups_selected=2 table_rows=0/0 table_unresolved=0 validation_errors=0
+attempt=3 quota_progress cell=ufa|weekend|with_children|yp 0->1

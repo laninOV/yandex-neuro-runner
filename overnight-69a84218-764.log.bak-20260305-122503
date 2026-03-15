@@ -1,0 +1,18 @@
+attempt=206 submit_click_total=44 cell=prm|vacation|without_children|yp
+attempt=206 status=success success=41/764 remaining=723 submit_clicks=44 unconfirmed_clicks=3 cell=prm|vacation|without_children|yp page=11 engine=legacy groups_found=2 groups_selected=2 table_rows=0/0 table_unresolved=0 validation_errors=0
+attempt=206 quota_progress cell=prm|vacation|without_children|yp 3->4
+attempt=207 submit_click_total=45 cell=prm|weekend|with_children|yp
+attempt=207 status=success success=42/764 remaining=722 submit_clicks=45 unconfirmed_clicks=3 cell=prm|weekend|with_children|yp page=11 engine=legacy groups_found=2 groups_selected=2 table_rows=0/0 table_unresolved=0 validation_errors=0
+attempt=207 quota_progress cell=prm|weekend|with_children|yp 2->3
+attempt=208 submit_click_total=46 cell=prm|weekend|without_children|yp
+attempt=208 status=success success=43/764 remaining=721 submit_clicks=46 unconfirmed_clicks=3 cell=prm|weekend|without_children|yp page=11 engine=legacy groups_found=2 groups_selected=2 table_rows=0/0 table_unresolved=0 validation_errors=0
+attempt=208 quota_progress cell=prm|weekend|without_children|yp 2->3
+attempt=209 submit_click_total=47 cell=ufa|vacation|with_children|yp
+attempt=209 status=success success=44/764 remaining=720 submit_clicks=47 unconfirmed_clicks=3 cell=ufa|vacation|with_children|yp page=11 engine=legacy groups_found=2 groups_selected=2 table_rows=0/0 table_unresolved=0 validation_errors=0
+attempt=209 quota_progress cell=ufa|vacation|with_children|yp 1->2
+attempt=210 submit_click_total=48 cell=ufa|vacation|without_children|yp
+attempt=210 status=success success=45/764 remaining=719 submit_clicks=48 unconfirmed_clicks=3 cell=ufa|vacation|without_children|yp page=11 engine=legacy groups_found=2 groups_selected=2 table_rows=0/0 table_unresolved=0 validation_errors=0
+attempt=210 quota_progress cell=ufa|vacation|without_children|yp 3->4
+attempt=211 submit_click_total=49 cell=ufa|weekend|with_children|other
+attempt=211 status=success success=46/764 remaining=718 submit_clicks=49 unconfirmed_clicks=3 cell=ufa|weekend|with_children|other page=11 engine=legacy groups_found=2 groups_selected=2 table_rows=0/0 table_unresolved=0 validation_errors=0
+attempt=211 quota_progress cell=ufa|weekend|with_children|other 1->2
